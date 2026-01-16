@@ -14,7 +14,7 @@ The team came about this team charter ....(add in your words datails on why this
 
 Describe the distilled purpose, function, or reason for your product to exist. From this form a team mission statement. Google's mission statement is:
 
- > "Google's mission is to organize the world's information and make it universally accessible and useful."
+ > "Goo gle's mission is to organize the world's information and make it universally accessible and useful."
 
 ## Other Organizational Information
 
