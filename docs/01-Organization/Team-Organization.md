@@ -8,13 +8,15 @@ tags:
 
 > "ASU is a comprehensive public research university, measured not by whom it excludes, but by whom it includes and how they succeed; advancing research and discovery of public value; and assuming fundamental responsibility for the economic, social, cultural and overall health of the communities it serves." (ASU's Charter)
 
+>"Team 308 is a collaborative group of ASU undergraduate students, measured not by prior experience, but by our commitment to learning, innovation, and task completion. We strive to expand our collective knowledge, apply interdisciplinary problem-solving, and design a functional prototype that addresses real-world challenges, with a focus on underwater research and exploration."
+
 The team came about this team charter ....(add in your words datails on why this is your team's charter)
 
 ## Product Mission Statement
 
 Describe the distilled purpose, function, or reason for your product to exist. From this form a team mission statement. Google's mission statement is:
 
- > "Goo gle's mission is to organize the world's information and make it universally accessible and useful."
+ > "Google's mission is to organize the world's information and make it universally accessible and useful."
 
 ## Other Organizational Information
 

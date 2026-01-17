@@ -38,8 +38,7 @@ Table 3: Team Members' Preferred Communication Modes
 | :------- | :----------------------------- | :------------------------------ | :----------------------------- |
 | Adrian   |                                |                                 |                                |
 | Sam M    |                                |                                 |                                |
-| Sam B    |                                |                                 |                                |
-| Andrew   |                                |                                 |                                |
+| Sam B    |            Discord             |            Text/Group chat      |            Instagram           | Andrew   |                                |                                 |                                |
 | Jacob    |            Discord             |            Text/Group chat      |            Instagram           |
 
 ### Communication Procedures

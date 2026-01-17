@@ -1,6 +1,6 @@
 site_name: EGR314 - Report for Team 308
-site_url: https://embedded-systems-design.github.io/template_report
-repo_url: https://github.com/embedded-systems-design/template_report
+site_url: https://egr314-s-2026-308.github.io/
+repo_url: https://github.com/EGR314-S-2026-308/EGR314-S-2026-308.github.io
 edit_uri: edit/main/docs/
 theme:
   name: material
