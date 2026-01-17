@@ -26,7 +26,16 @@ Professor Kevin Nichols<br>
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------|
 | Jacob Dirks            | [JacobDirksEgr314.GitHub](https://jacobdirks.github.io/DirksEGR314/) |
-| Name #2                | link |
-| Name #3                | link |
-| Name #4                | link |
-| Name #5                | link |
+| Name #2                | []() |
+| Name #3                | []() |
+| Name #4                | []() |
+| Name #5                | []() |
+
+<!-- ToDO List 
+* Put in your name and link the datasheet
+* Start the Organization page part of the assignment
+*  Finish off the last couple segments in the appendix organization
+*  Review appendix organization information
+*  Review organization page once completed
+*  Sign off on completeness
+-->
