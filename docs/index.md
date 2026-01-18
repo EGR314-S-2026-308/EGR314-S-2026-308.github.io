@@ -27,7 +27,7 @@ Professor Kevin Nichols<br>
 | ---------------------- | -----------------------|
 | Jacob Dirks            | [JacobDirksEgr314.GitHub](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
 | Sam Burns              | [SamBurnsEgr314.GitHub](https://suburns05.github.io/EGR314SamBurns.github.io/)              |
-| Andrew Imoukhuede      | [AndrewIEgr314.GitHub](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/) |
+| Andrew Imoukhuede      | [AndrewIEgr314.GitHub](https://aimoukhu.github.io/AimoukhuEGR314/)                                  |
 | Name #4                | link |
 | Name #5                | link |
 
