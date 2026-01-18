@@ -35,11 +35,12 @@ At the current time, we are not planning on cycling through roles as during our 
 Table 3: Team Members' Preferred Communication Modes
 
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
-| :------- | :----------------------------- | :------------------------------ | :----------------------------- |
+|:---------|:-------------------------------|:--------------------------------|:-------------------------------|
 | Adrian   |                                |                                 |                                |
 | Sam M    |                                |                                 |                                |
-| Sam B    |            Discord             |            Text/Group chat      |            Instagram           | Andrew   |                                |                                 |                                |
-| Jacob    |            Discord             |            Text/Group chat      |            Instagram           |
+| Sam B    | Discord                        | Text/Group chat                 | Instagram                      |
+| Andrew   | Text/Group Chat                | Discord                         | Instagram                      |
+| Jacob    | Discord                        | Text/Group chat                 | Instagram                      |
 
 ### Communication Procedures
 
