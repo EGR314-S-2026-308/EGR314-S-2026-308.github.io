@@ -28,7 +28,7 @@ Professor Kevin Nichols<br>
 | Jacob Dirks            | [JacobDirksEgr314.GitHub](https://jacobdirks.github.io/DirksEGR314/) |
 | Sam Burns              | [SamBurnsEgr314.GitHub](https://suburns05.github.io/EGR314SamBurns.github.io/)              |
 | Andrew Imoukhuede      | [AndrewIEgr314.GitHub](https://aimoukhu.github.io/AimoukhuEGR314/)                                  |
-| Sam Mangus             | [SamMangusEgr314.GitHub](https://sammangus.github.io/EGR314DataSheetTemplate/) |
+| Sam Mangus             | [SamMangusEgr314.GitHub](https://sammangus.github.io/EGR314DataSheetTemplate/)  |
 | Adrian Perez           | [AdrianPerezEgr314.GitHub](https://adrian-xp.github.io/adrianxp.github.io/) |
 
 <!-- ToDO List 
