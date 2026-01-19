@@ -33,9 +33,8 @@ Professor Kevin Nichols<br>
 
 <!-- ToDO List 
 * Put in your name and link the datasheet
-* Start the Organization page part of the assignment
 *  Finish off the last couple segments in the appendix organization
 *  Review appendix organization information
-*  Review organization page once completed
+*  Review organization page
 *  Sign off on completeness
 -->
