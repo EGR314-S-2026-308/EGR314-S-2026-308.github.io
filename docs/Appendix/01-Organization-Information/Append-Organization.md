@@ -36,11 +36,11 @@ Table 3: Team Members' Preferred Communication Modes
 
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
 |:---------|:-------------------------------|:--------------------------------|:-------------------------------|
-| Adrian   | Discord                        | Text/Group chat                 | Instagram                      |
+| Adrian P | Discord                        | Text/Group chat                 | Instagram                      |
 | Sam M    | Discord                        | Text/Group chat                 | Instagram                      |
+| Jacob D  | Discord                        | Text/Group chat                 | Instagram                      |
 | Sam B    | Discord                        | Text/Group chat                 | Instagram                      |
-| Andrew   | Text/Group Chat                | Discord                         | Instagram                      |
-| Jacob    | Discord                        | Text/Group chat                 | Instagram                      |
+| Andrew I | Text/Group Chat                | Discord                         | Instagram                      |
 
 ### Communication Procedures
 
