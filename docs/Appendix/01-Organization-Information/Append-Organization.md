@@ -70,3 +70,11 @@ Then, answer the following question as a team:
 #### Conflict Recognition & Resolution
 
 > List the steps and means of documenting issues that lead to involving the instructor in a "Pink Slip" processor. It is best to be **proactive** in resolving these issues early in the semester!
+
+Issues include missed deadlines, incomplete work, poor-quality work, absent team members, and unfulfilled responsibilities. Any team member can raise an issue, but only if it concerns an agent and is based on observations made through assets. 
+
+The first stage involves discussing the issue within the team, either at an all-team meeting or one-on-one, to clarify expectations and identify the underlying cause – task burden, skill gap, or noted issues. If no resolution emerges, the concern is documented immediately in the Meeting Agendas by the Meeting Recorder and becomes an agenda item for the future. 
+
+An expectation of improvement and a proposed corrective plan are presented. This stage is expected to be resolved at the moment of truth meeting, at most a week from discovery. If not resolved, the team provides assistance, such as redistributing tasks, offering tips, or optional role changes. 
+
+If the situation remains unresolved, the team returns to the meeting minutes and documents the issue again. If the concern is not resolved within the escalated time frame, the team leader substantiates the issue, which results in a separate deduction, compares it with the rest of the forces, logs it in the issue tracker, and sends a notification to the instructor via email.
