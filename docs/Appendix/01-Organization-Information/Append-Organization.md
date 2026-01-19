@@ -12,7 +12,7 @@ Table 1: Project Roles and Duties
 | Meeting recorder  | Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned                          |
 | Assignment leader | Coordinates the team's work on a given assignment to Canvas before the due date                                                           |
 | Project monitor   | Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status |
-| Quality control   | Checks assignments over with Assignment leader to ensure the material is of a quality we deem worthy of the 314 project                                        |
+| Quality control   | Checks assignments over with Assignment leader to ensure the material is of a quality we deem worthy of the 314 project                   |
 
 Table 2: Team Member and Roles
 
@@ -49,7 +49,7 @@ Then, answer the following question as a team:
 * Discord was the agreed upon form of communication and as such will be on a dedicated server with specified channels for quick access of information.  <!-- It is expected a response of ... on the agreed timeframe of .... -->
 * Team leader, Adrian P, will be the point of contact for instructor correspondence. As such he is responsible for asking the questions the group needs for successful project completion if an email is required. Through email chains either he can CC group members or bring the response back to the discord server.
 
-### Meeting Schedule and Coordiation
+### Meeting Schedule and Coordination
 
 >Your team should identify common times for meeting every week. If you are not meeting weekly, your team's chances of success this semester are low
 
@@ -62,7 +62,7 @@ Then, answer the following question as a team:
 * To Ensure that each team member has the knowledge and skill required, the team will trust in the individual's ability to advocate for themselves and promote an environment where asking for help is encouraged.
 * Feedback is to be constructive and acted on within a week of receiving the feedback.
 * Missed contributions/assignments/actions will be noted and follow a similar path as the accountability issues aforementioned.
-  <!-- pausing here -->
+  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!NEED to WORK PAST HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 * Hold one another accountable to the expectations described in this charter.
 * Recognize that a team member is underperforming.
 * Help an underperforming team member improve.

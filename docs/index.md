@@ -32,7 +32,7 @@ Professor Kevin Nichols<br>
 | Name #5                | link |
 
 <!-- ToDO List 
-* Put in your name and link the datasheet
+* Put in your name and link the data sheet
 *  Finish off the last couple segments in the appendix organization
 *  Review appendix organization information
 *  Review organization page
