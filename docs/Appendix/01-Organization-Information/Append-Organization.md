@@ -36,7 +36,7 @@ Table 3: Team Members' Preferred Communication Modes
 
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
 |:---------|:-------------------------------|:--------------------------------|:-------------------------------|
-| Adrian   |                                |                                 |                                |
+| Adrian   | Discord                        | Text/Group chat                 | Instagram                      |
 | Sam M    | Discord                        | Text/Group chat                 | Instagram                      |
 | Sam B    | Discord                        | Text/Group chat                 | Instagram                      |
 | Andrew   | Text/Group Chat                | Discord                         | Instagram                      |
@@ -69,4 +69,4 @@ Then, answer the following question as a team:
 
 #### Conflict Recognition & Resolution
 
-> List the steps and means of documenting issues that lead to involving the instructor in a "Pink Slip" processor. It is best to be **proactive** in resolving these issues early in the semester!
+Team members conflicts will be documented in the discord channel and there will be a team effort to reslove these issues via a group vote or wheelspin. 
