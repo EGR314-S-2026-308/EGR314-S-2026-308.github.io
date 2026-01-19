@@ -36,7 +36,7 @@ Table 3: Team Members' Preferred Communication Modes
 
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
 |:---------|:-------------------------------|:--------------------------------|:-------------------------------|
-| Adrian   |                                |                                 |                                |
+| Adrian   | Discord                        | Text/Group chat                 | Instagram                      |
 | Sam M    | Discord                        | Text/Group chat                 | Instagram                      |
 | Sam B    | Discord                        | Text/Group chat                 | Instagram                      |
 | Andrew   | Text/Group Chat                | Discord                         | Instagram                      |
@@ -46,8 +46,8 @@ Table 3: Team Members' Preferred Communication Modes
 
 Then, answer the following question as a team:
 
-* Discord was the agreed upon form of communication and as such will be on a dedicated server with specified channels for quick access of information.  <!-- It is expected a response of ... on the agreed timeframe of .... -->
-* Team leader, Adrian P, will be the point of contact for instructor correspondence. As such he is responsible for asking the questions the group needs for successful project completion if an email is required. Through email chains either he can CC group members or bring the response back to the discord server.
+* Discord was the agreed-upon form of communication and, as such, will be on a dedicated server with specified channels for quick access to information.  <!-- It is expected a response of ... on the agreed timeframe of .... -->
+* Team leader, Adrian P, will be the point of contact for instructor correspondence. As such, he is responsible for asking the questions the group needs to ensure successful project completion, if an email is required. Through email chains, he can either CC group members or bring the response back to the Discord server.
 
 ### Meeting Schedule and Coordination
 
