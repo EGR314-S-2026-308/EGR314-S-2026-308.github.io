@@ -37,7 +37,7 @@ Table 3: Team Members' Preferred Communication Modes
 | **Name** | **First Choice Communication** | **Second Choice Communication** | **Third Choice Communication** |
 |:---------|:-------------------------------|:--------------------------------|:-------------------------------|
 | Adrian   |                                |                                 |                                |
-| Sam M    |                                |                                 |                                |
+| Sam M    | Discord                        | Text/Group chat                 | Instagram                      |
 | Sam B    | Discord                        | Text/Group chat                 | Instagram                      |
 | Andrew   | Text/Group Chat                | Discord                         | Instagram                      |
 | Jacob    | Discord                        | Text/Group chat                 | Instagram                      |
@@ -62,11 +62,10 @@ Then, answer the following question as a team:
 * To Ensure that each team member has the knowledge and skill required, the team will trust in the individual's ability to advocate for themselves and promote an environment where asking for help is encouraged.
 * Feedback is to be constructive and acted on within a week of receiving the feedback.
 * Missed contributions/assignments/actions will be noted and follow a similar path as the accountability issues aforementioned.
-  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!NEED to WORK PAST HERE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-* Hold one another accountable to the expectations described in this charter.
-* Recognize that a team member is underperforming.
-* Help an underperforming team member improve.
-* What are the consequences if an underperforming team member does not improve (e.g., pink slip)?
+* Hold one another accountable by reviewing assignments before submission and ensuring each team members work meets the team expectation of quality.
+* Recognizing that a team member is underperforming will be indicated by missing contributions or minimal/low quality work on consecutive team assignements.
+* Help an underperforming team member improve by identfying the areas they're struggling in creating a plan to improve going forward and possibly reassigning work to an area they're more confident in.
+* The consequences for an underperforming team member will be questioning from the team and a verbal "slap" on the wrist and if the problem persist possibly escelating to a pink slip
 
 #### Conflict Recognition & Resolution
 
