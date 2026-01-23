@@ -228,7 +228,8 @@ At this stage of development, we have identified several groups that would be in
 
 <details>
 <summary><strong> Ordered Features </strong></summary>
-<strong>1. Product Design & Physical Build</strong>
+<details>
+<summary><strong>1. Product Design & Physical Build</strong></summary>
 This category encompasses all ideas related to  the physical structure, manufacturing, materials, and overall form factor of the device. 
 <br>
 <br>
@@ -249,7 +250,6 @@ Compact and lightweight form
 Device will be easy to rinse and maintain 
 <br>
 Environmentally neutral materials 
-
 <br>
 Device will have a buoy for easy retrieval 
 <br>
@@ -274,9 +274,11 @@ Device will be modular
 Device will be waterproof 
 <br>
 Looks like a fish for tagging animals
+</details>
 <br>
-<br>
-<strong>2. User Experience & Interface</strong>
+
+<details><summary>
+<strong>2. User Experience & Interface</strong></summary>
 <br>
 This group focuses on how the user interacts 
 with the device, including controls, software interfaces, 
@@ -284,7 +286,6 @@ indicators, and documentation.
 <br>
 <br>
 Controls will be a "drop and go" system
-
 <br>
 Intuitive prompts
 <br>
@@ -335,9 +336,10 @@ Self Diagnosis
 Ink mode
 <br>
 Provide wireless feedback on measurements
+</details>
 <br>
-<br>
-<strong>3. Sensors & Data Acquisition</strong>
+<details><summary>
+<strong>3. Sensors & Data Acquisition</strong></summary>
 This category includes the specific sensors and technologies used to detect and measure environmental parameters and surroundings.
 <br>
 <br>
@@ -371,10 +373,11 @@ Distance sensor pointed down by edges of the device
 Sonar for mapping and storage device to ensure we save the maps
 <br>
 Chemical tracking/testing
-<br>
+</details>
 <br>
 
-<strong>4. Movement, Navigation & Logic</strong>
+<details><summary>
+<strong>4. Movement, Navigation & Logic</strong></summary>
 <br>
 This group covers all ideas related to how the device moves through its environment, its directional awareness,  and its autonomous operating logic.
 <br>
@@ -408,9 +411,11 @@ Wildlife priority interrupts
 Controls will be autonomous
 <br>
 A land rover that maps out terrain (niche/different product idea)
+</details>
 <br>
-<br>
-<strong>5. Safety, Durability & Environmental Impact</strong>
+
+<details><summary>
+<strong>5. Safety, Durability & Environmental Impact</strong></summary>
 <br>
 These ideas focus on making the device resilient to harsh conditions, safe for users to handle, and ensuring its operation is ethical and non-disruptive to the environment.
 <br>
@@ -456,15 +461,15 @@ Chemical coating so it tastes bad when eaten
 Device will operate quietly
 <br>
 Long term water and pressure exposure
+</details>
 <br>
 
-<strong>6. Power & Battery Management</strong>
-<br>
+<details><summary>
+<strong>6. Power & Battery Management</strong></summary>
 This category groups all features related specifically to the power source, charging, and
 battery longevity.
 <br>
 <br>
-
 Battery Ejection
 <br>
 Swappable battery
@@ -476,14 +481,16 @@ Wireless charging
 Dual battery slots
 <br>
 Fast charging
+</details>
+<br>
 
 </details>
 
 <details>
 <summary> <strong>Ranked Features</strong> </summary>
 
-<details>
-<strong>1. Product Design & Physical Build</strong>
+<details><summary>
+<strong>1. Product Design & Physical Build</strong></summary>
 <br>
 <br>
 Device will be waterproof: Highest mission criticality; baseline requirement.  
@@ -496,8 +503,7 @@ Device will be modular/Allow for expansion: High innovation; allows for 2026 "ev
 <br>
 Mostly 3D printable: High user value for field repairs and sustainable manufacturing. 
 <br>
-Device will have no open ports: Critical for waterproofing feasibility. 
-<br>
+Device will have no open ports: Critical for waterproofing feasibility.
 <br>
 Device will float if dropped / Buoyant in water: Safety failsafe for equipment recovery. 
 <br>
@@ -515,8 +521,8 @@ Thermal insulation / Low emission design: Specialized operational needs.
 </details>
 <br>
 
-<details>
-<strong>2. User Experience & Interface</strong>
+<details><summary>
+<strong>2. User Experience & Interface</strong></summary>
 <br>
 <br>
 Self-Diagnosis: Highest mission criticality; prevents deployment of compromised hardware.
@@ -545,8 +551,8 @@ Quick start guides / Video instructions: Standard user support.
 </details>
 <br>
 
-<details>
-<strong>3. Sensors & Data Acquisition</strong>
+<details><summary>
+<strong>3. Sensors & Data Acquisition</strong></summary>
 <br>
 <br>
 Sonar for mapping: Mission critical for navigation and primary data value. 
@@ -567,8 +573,8 @@ Sound sensor / Analog microphone: Secondary environmental data.
 </details>
 <br>
 
-<details>
-<strong>4. Movement, Navigation & Logic</strong>
+<details><summary>
+<strong>4. Movement, Navigation & Logic</strong></summary>
 <br>
 <br>
 Obstacle avoidance system: Highest mission criticality to prevent collisions. 
@@ -591,8 +597,8 @@ Exploration of enclosure: Specific software logic innovation.
 </details>
 <br>
 
-<details>
-<strong>5. Safety, Durability & Environmental Impact</strong>
+<details><summary>
+<strong>5. Safety, Durability & Environmental Impact</strong></summary>
 <br>
 <br>
 Structure will withstand pressure: Critical mission feasibility for depth.  
@@ -619,8 +625,8 @@ Chemical coating (tastes bad): Specialized wildlife protection innovation.
 </details>
 <br>
 
-<details>
-<strong>6. Power & Battery Management</strong>
+<details><summary>
+<strong>6. Power & Battery Management</strong></summary>
 <br>
 <br>
 Low power mode: Mission critical; ensures the device can "phone home" when failing. Swappable battery / Dual battery slots: High user value for continuous field work.
