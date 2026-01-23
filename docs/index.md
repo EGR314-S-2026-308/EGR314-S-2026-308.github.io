@@ -24,7 +24,7 @@ Professor Kevin Nichols<br>
 ## Team Members Datasheet links
 
 | **Team Member**        |**Ind Datasheet Links** |
-| ---------------------- | -----------------------|
+| ---------------------- | -----------------------  |
 | Jacob Dirks            | [JacobDirksEgr314.GitHub](https://jacobdirks.github.io/DirksEGR314/) |
 | Sam Burns              | [SamBurnsEgr314.GitHub](https://suburns05.github.io/EGR314SamBurns.github.io/)              |
 | Andrew Imoukhuede      | [AndrewIEgr314.GitHub](https://aimoukhu.github.io/AimoukhuEGR314/)                                  |
@@ -32,9 +32,20 @@ Professor Kevin Nichols<br>
 | Adrian Perez           | [AdrianPerezEgr314.GitHub](https://adrian-xp.github.io/adrianxp.github.io/) |
 
 <!-- ToDO List 
-* Put in your name and link the data sheet
-*  Finish off the last couple segments in the appendix organization
-*  Review appendix organization information
-*  Review organization page
-*  Sign off on completeness
+* Screenshot the unorganized ideas list, save the image
+* Screenshot the organized ideas list, save the image
+* Screenshot the organized and ranked ideas list, save the image
+* Screenshot the grouping of the three design concepts, save the image
+* Get all saved images to Jacob Dirks or save them in with high quality
+* 
+* Andrew has one product image
+* Sam M has two product image
+* Mo has the third product image
+
+* Sam M specific item: Fix your link
+
+* Mo specific items:
+* add team member information
+* add info to append-organization.md
+* 
 -->

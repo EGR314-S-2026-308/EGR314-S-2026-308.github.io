@@ -20,9 +20,10 @@ Table 2: Team Member and Roles
 | :-------------- | :----------- |
 | Adrian P | Team leader |
 | Sam M | Meeting recorder |
-| Jacob D | Assignment Leader |
+| Jacob D | Assignment leader |
 | Sam B | Project monitor |
 | Andrew I | Quality control |
+| Mohammad A | Quality control |
 
 At the current time, we are not planning on cycling through roles as during our initial meeting we sat down to see where everyone's strengths lay. If we need to update in the future it will be because a team member is not fulfilling the letter and spirit of their role and will be communicated during team meetings. This deficit in action could be noticed by an increasing lack of communication, reviews, or participation as the role describes. At this point we will reevaluate to see if they are better suited for another role or if we can create a plan to help correct the deficit. As for helping, team members are welcome to help each other achieve sections, but if requested to allow someone to work solo will respect that decision.
 
@@ -41,6 +42,7 @@ Table 3: Team Members' Preferred Communication Modes
 | Sam B    | Discord                        | Text/Group chat                 | Instagram                      |
 | Andrew   | Text/Group Chat                | Discord                         | Instagram                      |
 | Jacob    | Discord                        | Text/Group chat                 | Instagram                      |
+| Mohammad A |  |  |
 
 ### Communication Procedures
 
@@ -63,10 +65,10 @@ Then, answer the following question as a team:
 * Feedback is to be constructive and acted on within a week of receiving the feedback.
 * Missed contributions/assignments/actions will be noted and follow a similar path as the accountability issues aforementioned.
 * Hold one another accountable by reviewing assignments before submission and ensuring each team members work meets the team expectation of quality.
-* Recognizing that a team member is underperforming will be indicated by missing contributions or minimal/low quality work on consecutive team assignements.
-* Help an underperforming team member improve by identfying the areas they're struggling in creating a plan to improve going forward and possibly reassigning work to an area they're more confident in.
+* Recognizing that a team member is underperforming will be indicated by missing contributions or minimal/low quality work on consecutive team assignments.
+* Help an underperforming team member improve by identifying the areas they're struggling in creating a plan to improve going forward and possibly reassigning work to an area they're more confident in.
 * The consequences for an underperforming team member will be questioning from the team and a verbal "slap" on the wrist and if the problem persist possibly escalating to a pink slip
 
 #### Conflict Recognition & Resolution
 
-Team members conflicts will be documented in the discord channel and there will be a team effort to reslove these issues via a group vote or wheelspin. 
+Team members conflicts will be documented in the discord channel and there will be a team effort to resolve these issues via a group vote or wheel-spin.
