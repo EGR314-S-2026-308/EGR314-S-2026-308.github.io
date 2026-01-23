@@ -37,6 +37,7 @@ Professor Kevin Nichols<br>
 * Screenshot the organized and ranked ideas list, save the image
 * Screenshot the grouping of the three design concepts, save the image
 * Get all saved images to Jacob Dirks or save them in with high quality
+* Add pdfs and images to the site
 * 
 * Andrew has one product image
 * Sam M has 2nd product image

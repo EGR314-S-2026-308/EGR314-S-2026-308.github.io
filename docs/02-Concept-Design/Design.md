@@ -12,7 +12,7 @@ At this stage of development, we have identified several groups that would be in
 
 <summary> Idea Generation </summary>
 
-1. Anti-slip rubberized sides
+ 1. Anti-slip rubberized sides
 <br>2. Will allow for expansion/ addition of modules
 <br>3. Controls will be a "drop and go" system
 <br>4. internal cable free design
@@ -72,7 +72,7 @@ At this stage of development, we have identified several groups that would be in
 <br>
 36. Environmentally neutral materials
 <br>
-37. exploration of enclosure
+37. Exploration of enclosure
 <br>
 38. Provide warning for sudden spike in measurements
 <br>
@@ -80,43 +80,43 @@ At this stage of development, we have identified several groups that would be in
 <br>
 40. Corrosion resistant
 <br>
-41. something that senses invisible fields (magnetic, emf, etc)
+41. Something that senses invisible fields (magnetic, emf, etc)
 <br>
 42. Gyroscopic sensor to keep device oriented
 <br>
 43. Provide wireless feedback on measurements
 <br>
-44. pulsing leds to indicate ready
+44. Pulsing leds to indicate ready
 <br>
 45. Device will be easy to rinse and maintain
 <br>
 46. Low emission design
 <br>
-47. led color changes
+47. Led color changes
 <br>
 48. Thermal insulation
 <br>
 49. Device will have a buoy for easy retrieval
 <br>
-50. analog microphone
+50. Analog microphone
 <br>
 51. Device will float if dropped
 <br>
 52. Accelerometer for navigation
 <br>
-53. metal detection coil
+53. Metal detection coil
 <br>
 54. Motors for underwater exploration
 <br>
-55. buoyant in water
+55. Buoyant in water
 <br>
-56. proximity sensor
+56. Proximity sensor
 <br>
 57. Device will have a depth gauge
 <br>
 58. Device will have no open ports
 <br>
-59. tether attachment
+59. Tether attachment
 <br>
 60. 3D Seafloor mapping
 <br>
@@ -134,7 +134,7 @@ At this stage of development, we have identified several groups that would be in
 <br>
 67. Low power mode
 <br>
-68. does not disrupt environmental ecosystems
+68. Does not disrupt environmental ecosystems
 <br>
 69. Device will have auto-inflation device in case of loss of power at depth
 <br>
@@ -142,7 +142,7 @@ At this stage of development, we have identified several groups that would be in
 <br>
 71. Mostly 3d printable for easy repair-ability
 <br>
-72. magnetometers for finding cardinal directions
+72. Magnetometers for finding cardinal directions
 <br>
 73. Device will have pressure release system for depth control
 <br>
@@ -170,7 +170,7 @@ At this stage of development, we have identified several groups that would be in
 <br>
 85. Components sealed in a water proof tube
 <br>
-86. wireless charging
+86. Wireless charging
 <br>
 87. Long term water and pressure exposure
 <br>
@@ -180,7 +180,7 @@ At this stage of development, we have identified several groups that would be in
 <br>
 90. 360 degree movement
 <br>
-91. glows in the dark
+91. Glows in the dark
 <br>
 92. Wildlife priority interrupts
 <br>
@@ -208,7 +208,7 @@ At this stage of development, we have identified several groups that would be in
 <br>
 104. Ink mode
 <br>
-105. chemical coating so it tastes bad when eaten
+105. Chemical coating so it tastes bad when eaten
 <br>
 106. Device will be waterproof
 
