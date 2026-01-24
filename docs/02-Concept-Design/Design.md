@@ -8,6 +8,7 @@ The goals are device are as broad as they are complex. That is to say we want to
 
 At this stage of development, we have identified several groups that would be interested in this project. As the project is developed within a university engineering group, the primary target audience is university personnel, including faculty, researchers, and students. A secondary audience includes industry professionals who may encounter the prototype through in-person demonstrations. Additionally, research and exploratory groups may be exposed to the project through industry connections, expanding its reach beyond the academic environment.
 
+### Idea Generation
 <details>
 
 <summary><strong> Idea Generation </strong></summary>
@@ -223,6 +224,7 @@ At this stage of development, we have identified several groups that would be in
 105. Chemical coating so it tastes bad when eaten
 <br>
 106. Device will be waterproof
+
 
  </details>
 
