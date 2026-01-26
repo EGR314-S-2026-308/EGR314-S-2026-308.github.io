@@ -664,6 +664,16 @@ This is a lightweight highly portable underwater rover, designed for fast explor
 The rover is equipped with four motors attached to an aerodynamic frame to glide through water at fast speeds. Other modules attached to the rover, like a battery dock to swap out battery quickly and a large camera module behind a glass frame to quickly map out ocean floors and avoid obstacles, serve to only increase the speed at which this rover can perform operations.
 
 To create a lightweight design, all rover control modules and done via Human Machine Interface on a remote controller equipped with a screen to receive live feed from the camera module and data from the test probes. The rover will come with a detailed manual on operations and even modifications and repair.
+
+3) The "Tetherless" Environmental Monitor
+
+![The "Tetherless" Environmental Monitor](Sources/SamConcept.svg)
+
+Core Focus: Water quality analysis and user-friendly interaction.
+Interface & UI: Designed with a "simplified UI," "intuitive prompts," and an "app/mobile interface." It features "LED status indicators" and "pulsing LEDs" to show readiness.
+Environmental Sensing: Specifically equipped to "test pH," "turbidity," "salinity," and "temperature" of the water. It includes "chemical tracking" capabilities.
+Recovery: To prevent loss, it is "buoyant in water," includes an "auto-inflation device," "auto-return" logic, and a "buoy for easy retrieval" if the "low battery indicator" is triggered. 
+
 <!-- Describe, after each presented concept:
 
 How the features highlighted in your concept sketch satisfy the needs of the user of the exploration device.
