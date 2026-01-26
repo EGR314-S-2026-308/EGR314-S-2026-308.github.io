@@ -657,7 +657,7 @@ To improve durability of the rover, all user controls will be made by wireless c
 
 2. The "Rapid-Response" Modular Scout
 
-![The "Rapid-Response" Modular Scout](Sources/AndrewConcept2.svg)
+![The "Rapid-Response" Modular Scout](Sources/AndrewConcept_V2.svg)
 
 This is a lightweight highly portable underwater rover, designed for fast exploration into deep an tight areas.Its is designed to handle all operations from movement to charging and even exploration at high speeds.
 
