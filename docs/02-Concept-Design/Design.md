@@ -655,9 +655,10 @@ The rovers antenna provides wireless communication between the rover and the use
 
 To improve durability of the rover, all user controls will be made by wireless communication and pre-coded operations. Instructions will come in the form of manuals and online videos available of the control app. Any change to the device will require a disassembly of the enclosure to get into the components, reducing the ease of modification and control but improving the overall structural integrity of the rover.
 
+
 2. The "Rapid-Response" Modular Scout
 
-![The "Rapid-Response" Modular Scout](Sources/AndrewConcept_V2.svg)
+![The "Rapid-Response" Modular Scout](Sources/AndrewConcept_v2.svg)
 
 This is a lightweight highly portable underwater rover, designed for fast exploration into deep an tight areas.Its is designed to handle all operations from movement to charging and even exploration at high speeds.
 
