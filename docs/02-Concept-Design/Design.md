@@ -648,24 +648,23 @@ Battery Ejection: Niche safety feature for emergency weight shedding.
 1. Rugged Industrial Surveyor
 
 ![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
-This is a structure that will withstand pressure with its components sealed in a waterproof enclosure made of corrosion-resistant materials. It is designed for "long-term water and pressure exposure."
-It includes a wide frame metal cage to help keep the rover from environmental harm and marie predators, and a buoy hook to be able to retrieve the rover at all times. It is designed to optimize strength and safety to the components 
+This is a structure designed to withstand extreme pressure with its components sealed in a waterproof enclosure made of corrosion-resistant materials. It is designed for "long-term exposure to water and pressure ."
+It includes a wide framed metal cage to help keep the rover from environmental harm and marine predators, and a buoy hook to be able to retrieve the rover at all times. It is designed to optimize strength and safety to the components 
 
-The rovers antenna provides wireless communication between the rover and the user. This eliminates the need for any physical buttons and screens that can compromise durability and strength under water.when in operation, it uses its sensor probes and an actuator based response system to navigate its way through the ocean, avoiding obstacles and logging data.
+The rovers antenna provides wireless communication between the rover and the user. This eliminates the need for any physical buttons and screens that can compromise durability and strength under water. When in operation, it uses its sensor probes and an actuator-based response system to navigate its way through the ocean, avoiding obstacles and logging data.
 
-To improve durability of the rover, all user controls will be made by wireless communication and pre-coded operations. Instructions will come in the form of manuals and online videos available of the control app. Any change to the device will require a disassembly of the enclosure to get into the components, reducing the ease of modification and control but improving the overall structural integrity of the rover.
+To improve durability of the rover, all user controls will be made by wireless communication and pre-coded operations. Instructions will come in the form of manuals and online videos available on the control app. Any change to the device will require a disassembly of the enclosure to get into the components, reducing the ease of modification and control ,but improving the overall structural integrity of the rover.
 
 
 2. The "Rapid-Response" Modular Scout
 
 ![The "Rapid-Response" Modular Scout](Sources/AndrewConcept_v2.svg)
 
-This is a lightweight highly portable underwater rover, designed for fast exploration into deep an tight areas.Its is designed to handle all operations from movement to charging and even exploration at high speeds.
+This is a lightweight highly portable underwater rover, designed for fast exploration into deep and tight areas. It is designed to handle all operations from movement to charging and even exploration at high speeds.
 
-The rover is equipped with four rovers attached to an aerodynamic frame, to glide through water at fast speeds. Other modules attached to the rover, like a battery dock to swap out battery quickly and a large camera module behind a glass frame to quickly map out ocean floors and avoid obstacles, serve to only increase the speed at which this rover can perform operations.
+The rover is equipped with four motors attached to an aerodynamic frame to glide through water at fast speeds. Other modules attached to the rover, like a battery dock to swap out battery quickly and a large camera module behind a glass frame to quickly map out ocean floors and avoid obstacles, serve to only increase the speed at which this rover can perform operations.
 
-To create a lightweight design, all rover control modules and done via Human Machine Interface on a remote controller equipped with a screen to receive live feed from the camera module and data from the test probes. The rover will come with a detailed manual on operations and even modifications and repair. Its light small and portable factor will encourage.
-
+To create a lightweight design, all rover control modules and done via Human Machine Interface on a remote controller equipped with a screen to receive live feed from the camera module and data from the test probes. The rover will come with a detailed manual on operations and even modifications and repair.
 <!-- Describe, after each presented concept:
 
 How the features highlighted in your concept sketch satisfy the needs of the user of the exploration device.
