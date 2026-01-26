@@ -649,7 +649,7 @@ Battery Ejection: Niche safety feature for emergency weight shedding.
 
 ![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
 This is a structure that will withstand pressure with its components sealed in a waterproof enclosure made of corrosion-resistant materials. It is designed for "long-term water and pressure exposure."
-It includes a wide frame metal cage to help keep the rover from environmental harm and marie predators. It is designed to optimize strength and safety to the components 
+It includes a wide frame metal cage to help keep the rover from environmental harm and marie predators, and a buoy hook to be able to retrieve the rover at all times. It is designed to optimize strength and safety to the components 
 
 The rovers antenna provides wireless communication between the rover and the user. This eliminates the need for any physical buttons and screens that can compromise durability and strength under water.when in operation, it uses its sensor probes and an actuator based response system to navigate its way through the ocean, avoiding obstacles and logging data.
 
