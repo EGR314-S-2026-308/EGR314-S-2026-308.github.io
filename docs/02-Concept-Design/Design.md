@@ -663,7 +663,7 @@ This is a lightweight highly portable underwater rover, designed for fast explor
 
 The rover is equipped with four rovers attached to an aerodynamic frame, to glide through water at fast speeds. Other modules attached to the rover, like a battery dock to swap out battery quickly and a large camera module behind a glass frame to quickly map out ocean floors and avoid obstacles, serve to only increase the speed at which this rover can perform operations.
 
-To create a lightweight design, all rover control modules and done via Human Machine Interface on a remote controller equipped with a screen to receive live feed from the camera module and data from the test probes. The rover will come with a detailed manual on operations and even modifications and repair. Its light small and portable factor will encoura
+To create a lightweight design, all rover control modules and done via Human Machine Interface on a remote controller equipped with a screen to receive live feed from the camera module and data from the test probes. The rover will come with a detailed manual on operations and even modifications and repair. Its light small and portable factor will encourage.
 
 <!-- Describe, after each presented concept:
 
@@ -685,6 +685,6 @@ What kind of instruction will be needed to use the device?
 ## Selected Concepts
 
 We decided to go with Andrew's design.
-[Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
+![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
 <br>
 This is due to it's feasibility, ability to see while maneuvering and protecting the machine itself. The nature of protecting the machinery from the environment and pressure were at the core of this design. Otherwise we wanted to ensure the barrier preventing human interference near moving parts was prevalent for safety concerns. Finally, having a design which keeps geometry simple also allows us to create easier to read safety guide sections for human users.
