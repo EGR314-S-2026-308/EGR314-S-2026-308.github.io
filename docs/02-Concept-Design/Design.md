@@ -644,7 +644,7 @@ Battery Ejection: Niche safety feature for emergency weight shedding.
 </details>
 
 ## Concepts
-1. Rugged Industrial Surveyor
+1. The Rugged Industrial Surveyor
 <br>
 ![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
 This is a structure that will withstand pressure with its components sealed in a waterproof enclosure made of corrosion-resistant materials. It is designed for "long-term water and pressure exposure."
@@ -654,6 +654,14 @@ The rovers antenna na provides wireless communication between the rover and the 
 <br>
 To improve durability of the rover, all user controls will be made by wireless communication and pre-coded operations. Instructions will come in the form of manuals and online videos available of the control app. Any change to the device will require a disassembly of the enclosure to get into the components, reducing the ease of modification and control but improving the overall structural integrity of the rover. 
 
+2. The "Rapid-Response" Modular Scout
+![The "Rapid-Response" Modular Scout](Sources/AndrewConcept2.svg)
+<br>
+This is a lightweight highly portable underwater rover, designed for fast exploration into deep an tight areas.Its is designed to handle all operations from movement to charging and even exploration at high speeds.
+<br>
+The rover is equipped with four rovers attached to an aerodynamic frame, to glide through water at fast speeds. Other modules attached to the rover, like a battery dock to swap out battery quickly and a large camera module behind a glass frame to quickly map out ocean floors and avoid obstacles, serve to only increase the speed at which this rover can perform operations.
+<br>
+To create a lightweight design, all rover control modules and done via Human Machine Interface on a remote controller equipped with a screen to receive live feed from the camera module and data from the test probes. The rover will come with a detailed manual on operations and even modifications and repair. Its light small and portable factor will encourage users to learn how to modify and repair the unit.
 
 ## Selected Concepts
 
