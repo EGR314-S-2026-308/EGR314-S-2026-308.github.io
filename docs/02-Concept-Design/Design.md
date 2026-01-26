@@ -645,18 +645,17 @@ Battery Ejection: Niche safety feature for emergency weight shedding.
 
 ## Concepts
 
-1. Rugged Industrial Surveyor
+1) Rugged Industrial Surveyor
 
 ![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
 This is a structure designed to withstand extreme pressure with its components sealed in a waterproof enclosure made of corrosion-resistant materials. It is designed for "long-term exposure to water and pressure ."
-It includes a wide framed metal cage to help keep the rover from environmental harm and marine predators, and a buoy hook to be able to retrieve the rover at all times. It is designed to optimize strength and safety to the components 
+It includes a wide framed metal cage to help keep the rover from environmental harm and marine predators, and a buoy hook to be able to retrieve the rover at all times. It is designed to optimize strength and safety to the components.
 
 The rovers antenna provides wireless communication between the rover and the user. This eliminates the need for any physical buttons and screens that can compromise durability and strength under water. When in operation, it uses its sensor probes and an actuator-based response system to navigate its way through the ocean, avoiding obstacles and logging data.
 
 To improve durability of the rover, all user controls will be made by wireless communication and pre-coded operations. Instructions will come in the form of manuals and online videos available on the control app. Any change to the device will require a disassembly of the enclosure to get into the components, reducing the ease of modification and control ,but improving the overall structural integrity of the rover.
 
-
-2. The "Rapid-Response" Modular Scout
+2) The "Rapid-Response" Modular Scout
 
 ![The "Rapid-Response" Modular Scout](Sources/AndrewConcept_V2.svg)
 
