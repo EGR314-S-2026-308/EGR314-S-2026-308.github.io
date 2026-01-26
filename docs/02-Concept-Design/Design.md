@@ -646,6 +646,12 @@ Battery Ejection: Niche safety feature for emergency weight shedding.
 <details>
 <summary> <strong>Suggested Concepts</strong> </summary>
 
+<details><summary>
+<strong>1. Rugged Industrial Surveyor</strong></summary>
+<br>
+![Rugged Industrial Surveyor](AndrewConcept.svg)
+<br>
+
 </details>
 
 
