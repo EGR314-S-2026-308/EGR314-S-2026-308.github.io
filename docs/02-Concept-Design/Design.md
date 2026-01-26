@@ -670,8 +670,11 @@ To create a lightweight design, all rover control modules and done via Human Mac
 ![The "Tetherless" Environmental Monitor](Sources/SamConcept.svg)
 
 Core Focus: Water quality analysis and user-friendly interaction.
+
 Interface & UI: Designed with a "simplified UI," "intuitive prompts," and an "app/mobile interface." It features "LED status indicators" and "pulsing LEDs" to show readiness.
+
 Environmental Sensing: Specifically equipped to "test pH," "turbidity," "salinity," and "temperature" of the water. It includes "chemical tracking" capabilities.
+
 Recovery: To prevent loss, it is "buoyant in water," includes an "auto-inflation device," "auto-return" logic, and a "buoy for easy retrieval" if the "low battery indicator" is triggered. 
 
 <!-- Describe, after each presented concept:
