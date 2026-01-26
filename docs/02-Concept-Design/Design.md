@@ -644,6 +644,8 @@ Battery Ejection: Niche safety feature for emergency weight shedding.
 </details>
 
 ## Concepts
+1. Rugged Industrial Surveyor
+<br>
 ![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
 This is a structure that will withstand pressure with its components sealed in a waterproof enclosure made of corrosion-resistant materials. It is designed for "long-term water and pressure exposure."
 It includes a wide frame metal cage to help; keep the rover from environmental harm and marie predators. It is designed to optimize strength and safety to the components 
