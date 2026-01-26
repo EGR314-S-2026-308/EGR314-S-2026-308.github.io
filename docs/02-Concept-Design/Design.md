@@ -644,18 +644,16 @@ Battery Ejection: Niche safety feature for emergency weight shedding.
 </details>
 
 ## Concepts
+
 1. Rugged Industrial Surveyor
-<br>
+
 ![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
 This is a structure that will withstand pressure with its components sealed in a waterproof enclosure made of corrosion-resistant materials. It is designed for "long-term water and pressure exposure."
 It includes a wide frame metal cage to help keep the rover from environmental harm and marie predators. It is designed to optimize strength and safety to the components 
-<br>
+
 The rovers antenna na provides wireless communication between the rover and the user. This eliminates the need for any physical buttons and screens that can compromise durability and strength under water.when in operation, it uses its sensor probes and an actuator based response system to navigate its way through the ocean, avoiding obstacles and logging data.
-<br>
-To improve durability of the rover, all user controls will be made by wireless communication and pre-coded operations. Instructions will come in the form of manuals and online videos available of the control app. Any change to the device will require a disassembly of the enclosure to get into the components, reducing the ease of modification and control but improving the overall structural integrity of the rover. 
 
-
-## Selected Concepts
+To improve durability of the rover, all user controls will be made by wireless communication and pre-coded operations. Instructions will come in the form of manuals and online videos available of the control app. Any change to the device will require a disassembly of the enclosure to get into the components, reducing the ease of modification and control but improving the overall structural integrity of the rover.
 
 <!-- Describe, after each presented concept:
 
@@ -673,3 +671,10 @@ How do you plan on designing your "controls?"
 What role will durability and comfort play in the user experience?
 What kind of instruction will be needed to use the device?
 -->
+
+## Selected Concepts
+
+We decided to go with Andrew's design.
+[Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
+<br>
+This is due to it's feasibility, ability to see while maneuvering and protecting the machine itself. The nature of protecting the machinery from the environment and pressure were at the core of this design. Otherwise we wanted to ensure the barrier preventing human interference near moving parts was prevalent for safety concerns. Finally, having a design which keeps geometry simple also allows us to create easier to read safety guide sections for human users.
