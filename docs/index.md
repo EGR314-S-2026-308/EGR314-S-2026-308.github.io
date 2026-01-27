@@ -15,33 +15,28 @@ Professor Kevin Nichols<br>
 
 </center>
 
-## Team Introduction
+## **Team Introduction**
 > This will be updated as part of the preparation for the External Review.<br>
 >    * This needs to be updated to reflect a team introduction.<br>
 >    * Content should also help an unfamiliar reader navigate to areas of interest.
 
 
-## Team Members Datasheet links
+## **Team Members Datasheet links**
 
 | **Team Member**        |**Ind Datasheet Links** |
 | ---------------------- | -----------------------  |
-| Jacob Dirks            | [JacobDirksEgr314.GitHub](https://jacobdirks.github.io/DirksEGR314/) |
+| Jacob Dirks            | [JacobDirksEgr314.GitHub](https://jacobdirks.github.io/Dirks_EGR314_S26/) |
 | Sam Burns              | [SamBurnsEgr314.GitHub](https://suburns05.github.io/EGR314SamBurns.github.io/)              |
 | Andrew Imoukhuede      | [AndrewIEgr314.GitHub](https://aimoukhu.github.io/AimoukhuEGR314/)                                  |
 | Sam Mangus             | [SamMangusEgr314.GitHub](https://sammangus.github.io/EGR314DataSheetTemplate/)  |
 | Adrian Perez           | [AdrianPerezEgr314.GitHub](https://adrian-xp.github.io/adrianxp.github.io/) |
-
+| Mohammed Ali           | [MohammedAliEgr314.GitHub](https://malqarn2.github.io/EGR314DataSheetTemplate/) |
 <!-- ToDO List 
-* Screenshot the unorganized ideas list, save the image
-* Screenshot the organized ideas list, save the image
-* Screenshot the organized and ranked ideas list, save the image
-* Screenshot the grouping of the three design concepts, save the image
-* Get all saved images to Jacob Dirks or save them in with high quality
-* Add pdfs and images to the site
-* 
-* Andrew has one product image
-* Sam M has 2nd product image
-* Mo has the third product image
+
+* Add pdfs and images to the site from whiteboard stuff - Design.md
+
+*complete Project-rec transfer 
+
 
 * Sam M specific item: Fix your link
 

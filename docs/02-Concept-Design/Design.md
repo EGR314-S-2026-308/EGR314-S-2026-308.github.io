@@ -2,7 +2,7 @@
 title: Concept Generation and Design Ideation
 ---
 
-## Framework
+## **Framework**
 
 The goals are device are as broad as they are complex. That is to say we want to protect humans from risk of injury in environments that pose a threat like water pressure in the ocean. A more self evident goal to gather data regarding that environment and secondarily protect it from further disturbance. Finally due to the nature of our proposed environment, the ocean, we want our device to be able not only withstand significant external pressures but also gather detailed environments.
 
@@ -643,7 +643,7 @@ Battery Ejection: Niche safety feature for emergency weight shedding.
 
 </details>
 
-## Concepts
+## **Concepts**
 
 1) Rugged Industrial Surveyor
 
@@ -655,9 +655,9 @@ The rovers antenna provides wireless communication between the rover and the use
 
 To improve durability of the rover, all user controls will be made by wireless communication and pre-coded operations. Instructions will come in the form of manuals and online videos available on the control app. Any change to the device will require a disassembly of the enclosure to get into the components, reducing the ease of modification and control ,but improving the overall structural integrity of the rover.
 
-2) The "Rapid-Response" Modular Scout
+2) The Rapid-Response Scout
 
-![The "Rapid-Response" Modular Scout](Sources/AndrewConcept_V2.svg)
+![The Rapid-Response Scout](Sources/AndrewConcept_V2.svg)
 
 This is a lightweight highly portable underwater rover, designed for fast exploration into deep and tight areas. It is designed to handle all operations from movement to charging and even exploration at high speeds.
 
@@ -665,9 +665,9 @@ The rover is equipped with four motors attached to an aerodynamic frame to glide
 
 To create a lightweight design, all rover control modules and done via Human Machine Interface on a remote controller equipped with a screen to receive live feed from the camera module and data from the test probes. The rover will come with a detailed manual on operations and even modifications and repair.
 
-3) The "Tetherless" Environmental Monitor
+1) The Environmental Monitor
 
-![The "Tetherless" Environmental Monitor](Sources/SamConcept.svg)
+![The Environmental Monitor](Sources/SamConcept.svg)
 
 Core Focus: Water quality analysis and user-friendly interaction.
 
@@ -675,7 +675,7 @@ Interface & UI: Designed with a simplified UI, and an app/mobile interface. It f
 
 Environmental Sensing: Specifically equipped to test pH, turbidity, salinity, and temperature of the water. It includes chemical and seismic tracking capabilities to predict disasters and help in preventative research .
 
-Recovery: To prevent loss it includes an auto-inflation compartment to make it float, auto-return logic, and a buoy for easy retrieval if the low battery indicator is triggered. 
+Recovery: To prevent loss it includes an auto-inflation compartment to make it float, auto-return logic, and a buoy for easy retrieval if the low battery indicator is triggered.
 
 <!-- Describe, after each presented concept:
 
