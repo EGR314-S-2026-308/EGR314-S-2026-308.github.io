@@ -90,7 +90,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#header" class="md-skip">
+        <a href="#introduction" class="md-skip">
           Skip to content
         </a>
       
@@ -574,9 +574,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#header" class="md-nav__link">
+  <a href="#introduction" class="md-nav__link">
     <span class="md-ellipsis">
-      Header
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-responsibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Responsibilities
     </span>
   </a>
   
@@ -657,8 +675,6 @@
       
         
       
-        
-      
     
     
       
@@ -719,9 +735,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#header" class="md-nav__link">
+  <a href="#introduction" class="md-nav__link">
     <span class="md-ellipsis">
-      Header
+      Introduction
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#team-responsibilities" class="md-nav__link">
+    <span class="md-ellipsis">
+      Team Responsibilities
     </span>
   </a>
   
@@ -752,8 +786,155 @@
 
   <h1>Project Requirements</h1>
 
-<h2 id="header">Header</h2>
-<p>Add content</p>
+<h2 id="introduction"><strong>Introduction</strong></h2>
+<!-- Write context on how features became requirements 
+
+Written context to guide the reader on how features became requirements. (ie: The ground exploration rover will need drive and steering to move around, which requires ....  OR To collect samples, the explorer will require an arm that ....  which allows it to get the sample.)
+
+-->
+<p>In this section as a team we will list the project requirements and then assign individuals to satisfy that requirement. We take the features proposed in our Concept Design section and turns those proposed features into requirements for the submarine, that also satisfy the requirements set out for us by the course.</p>
+<p>Our project is currently being designed for water explorations with the intent to probe the environment in a body of water. </p>
+<p>This meant that we would need to isolate specific probes that would be useful in a body of water such as the light levels for vegetation growth, the temperature for general environment information and the general current information which can double as a way to read our machine's progress. Other features such as the thrusters on the side and back demonstrate a solution to the requirement of being able to move forward and reverse as well as turn. Since we can't predict the full positioning of hazards without going well over project budget the submarine needs a way to protect itself, which requires a shielding structure or more sensors.</p>
+<h2 id="requirements"><strong>Requirements</strong></h2>
+<!--Put features list here -->
+<p><del>Buoy Cable ring</del>, Antenna, Test Probes, Flashlight, Optical Dome, <del>Side thrusters, Back Thrusters, Metal Cage</del></p>
+<!--
+Core Focus: Structural survival in high-pressure, high-risk environments.
+Physical & Durability: A "structure that will withstand pressure" with "components sealed in a waterproof tube" and "corrosion-resistant" materials. It is designed for "long-term water and pressure exposure."
+Safety & Logic: Includes a "leak/water detection sensor," "pressure release system," and "overheat protection." Moving parts are "covered by a barrier 4cm away" for human safety during maintenance.
+Interface: Uses "high-visibility safety colors" (Red/Yellow/Blue coding) for safe physical handling and "self-diagnosis" for system integrity checks.  -->
+
+<!-- Table that lists reqs and description as well as minimum measure to be a success, target level, feature it satisfies, and stretch/? requirement -->
+
+<table>
+<thead>
+<tr>
+<th><strong>Requirement Description</strong></th>
+<th><strong>Feature</strong></th>
+<th><strong>Measure of <br> Threshold</strong></th>
+<th><strong>Target <br> Measure</strong></th>
+<th style="text-align: center;"><strong>Stretch (Y/N</strong>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The submarine requires a way to move change directions and steer forward which requires a minimum of three motors for balance.</td>
+<td>Side thrusters and Back Thrusters</td>
+<td>Thrusters are able to move the submarine forward and back.</td>
+<td>Thrusters are able to allow the submarine to turn and drive forward and back.</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>The submarine requires a way to protect the sensitive parts of the robot from bumping into obstacles.</td>
+<td>Metal cage</td>
+<td>There is a solid boarder around the outside of the robot.</td>
+<td>The solid shell around the robot does not warp over time and provides protection a generalized protection on all sides.</td>
+<td style="text-align: center;">Yes</td>
+</tr>
+<tr>
+<td>The submarine requires a safety measure in case of battery failure up to a certain depth.</td>
+<td>Buoy ring</td>
+<td>A ring offering a physical tether connection point.</td>
+<td>A physical connection tether point with an ability to transmit data given connection.</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>The submarine requires a way to send its readings back to the user from deep underwater.</td>
+<td>Antenna</td>
+<td>Antenna is able to send and receive the amplified signals.</td>
+<td>Able to send and receive amplified signals</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>The submarine requires a way to collect information regarding water variables like: temperature, current, and light levels</td>
+<td>Test Probes</td>
+<td>Probes attached to the side and send legible signals back to the HMI.</td>
+<td>Probes have a housing that protect them from damage while not in use and allow for communication back to the HMI.</td>
+<td style="text-align: center;">No</td>
+</tr>
+<tr>
+<td>To protect a possible optical sensor/camera</td>
+<td>Optical dome</td>
+<td>Keeping it water proof</td>
+<td>Allow for clear visuals into water</td>
+<td style="text-align: center;">Yes</td>
+</tr>
+<tr>
+<td>Assist camera to enhance image quality and locating the submarine</td>
+<td>Flashlight</td>
+<td>Provide both directed and surrounding light</td>
+<td>Providing a clear light to clearly show what the camera sees if it's dark, while also lighting up the exterior area light for easier location of the submarine</td>
+<td style="text-align: center;">Yes</td>
+</tr>
+</tbody>
+</table>
+<h2 id="team-responsibilities"><strong>Team Responsibilities</strong></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Requirement Description</strong></th>
+<th><strong>Assigned Team Member</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side thrusters and Back Thrusters</td>
+<td>Jacob</td>
+</tr>
+<tr>
+<td>Metal cage</td>
+<td></td>
+</tr>
+<tr>
+<td>Buoy ring</td>
+<td></td>
+</tr>
+<tr>
+<td>Antenna</td>
+<td></td>
+</tr>
+<tr>
+<td>Test Probes</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<!--
+A table that lists the requirements, as a description, along with the minimum measure level to not be a complete failure, the target measurement, the feature this requirement satisfies, and whether it is a stretch requirement. (See the Individual data sheet template for an example.)
+
+This table should also cover the major design-concept constraints that will affect team-member modules. Like power.
+Should cover every feature of the exploration device has in the final design concept.
+
+Should have enough requirements that every team member has a key functional requirement. Motor, sensor, wireless communication, or HMI.
+
+A list or table that assigns the requirements to which team member.
+
+Written context to guide the reader on how features became requirements. (ie: The ground exploration rover will need drive and steering to move around, which requires ....  OR To collect samples, the explorer will require an arm that ....  which allows it to get the sample.)
+
+
+Temp - probe
+Inertial Measurement Unit - attachment - also helps with knowing about currents a bit more
+
+
+Sam B - UI / HMI
+
+Jacob D - Drive system
+
+Sensor Team
+Andrew - IMU
+Sam M - Temp
+Mo - Light sensor
+
+Adrian - Controller 
+
+Desires:
+Mo - HMI or whatever
+Adrian - Would like a sensor
+Jacob - Drive system 
+Andrew - Sensor 
+
+2 actuators, 2 sensor, 1 controller, 1 hmi
+-->
 
 
 
