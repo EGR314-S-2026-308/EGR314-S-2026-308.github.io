@@ -30,7 +30,7 @@ Professor Kevin Nichols<br>
 | Andrew Imoukhuede      | [AndrewIEgr314.GitHub](https://aimoukhu.github.io/AimoukhuEGR314/)                                  |
 | Sam Mangus             | [SamMangusEgr314.GitHub](https://sammangus.github.io/EGR314DataSheetTemplate/)  |
 | Adrian Perez           | [AdrianPerezEgr314.GitHub](https://adrian-xp.github.io/adrianxp.github.io/) |
-
+| Mohammed Ali           | [MohammedAliEgr314.GitHub](https://malqarn2.github.io/EGR314DataSheetTemplate/) |
 <!-- ToDO List 
 * Screenshot the unorganized ideas list, save the image
 * Screenshot the organized ideas list, save the image
