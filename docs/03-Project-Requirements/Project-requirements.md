@@ -37,7 +37,7 @@ Interface: Uses "high-visibility safety colors" (Red/Yellow/Blue coding) for saf
 | To protect a possible optical sensor/camera | Optical dome |  Keeping it water proof  | Allow for clear visuals into water |   Yes  |
 | Assist camera to enhance image quality and locating the submarine | Flashlight | Provide both directed and surrounding light | Providing a clear light to clearly show what the camera sees if it's dark, while also lighting up the exterior area light for easier location of the submarine | Yes |
 
-## **Team Responsibilities** DRAFT
+## **Team Responsibilities** 
 
 | **Requirement Description** | **Assigned Team Member** |
 | ----------------------------|--------------------------|
