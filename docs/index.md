@@ -35,13 +35,9 @@ Professor Kevin Nichols<br>
 
 * Add pdfs and images to the site from whiteboard stuff - Design.md
 
-*complete Project-rec transfer 
-
-
-* Sam M specific item: Fix your link
-
-* Mo specific items:
-* add team member information
-* add info to append-organization.md
-* 
+* complete Project-rec transfer
+* Put Project requirements in table instead of features
+* assign requirements to individuals
+* Visual check off
+* Remove features list above the table
 -->
