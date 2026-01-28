@@ -37,15 +37,16 @@ Interface: Uses "high-visibility safety colors" (Red/Yellow/Blue coding) for saf
 | To protect a possible optical sensor/camera | Optical dome |  Keeping it water proof  | Allow for clear visuals into water |   Yes  |
 | Assist camera to enhance image quality and locating the submarine | Flashlight | Provide both directed and surrounding light | Providing a clear light to clearly show what the camera sees if it's dark, while also lighting up the exterior area light for easier location of the submarine | Yes |
 
-## **Team Responsibilities**
+## **Team Responsibilities** DRAFT
 
 | **Requirement Description** | **Assigned Team Member** |
 | ----------------------------|--------------------------|
-| Side thrusters and Back Thrusters |  Jacob             |
-| Metal cage                  |                          |
-| Buoy ring                   |                          |
-| Antenna                     |                          |
-| Test Probes                 |                          |
+| Drive system |  Jacob             |
+| Body design (safety measures)            |     Andrew / Sam B / Jacob                |
+| Internal Controller/Transmiter                |     Adrian                     |
+| Sensors: Tempurture/IMU/Photo resistor      |   Sam M. / Andrew / Mohammed Ali            |
+| Camera                 |   Sam B. / Adrian                 |
+| Human Machine Interface / U.I.               |   Sam B.                |
 
 <!--
 A table that lists the requirements, as a description, along with the minimum measure level to not be a complete failure, the target measurement, the feature this requirement satisfies, and whether it is a stretch requirement. (See the Individual data sheet template for an example.)
