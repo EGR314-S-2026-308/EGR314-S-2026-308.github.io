@@ -16,9 +16,9 @@ Professor Kevin Nichols<br>
 </center>
 
 ## **Team Introduction**
-> This will be updated as part of the preparation for the External Review.<br>
->    * This needs to be updated to reflect a team introduction.<br>
->    * Content should also help an unfamiliar reader navigate to areas of interest.
+> To view our team organization information, please visit the [team organization page.](https://egr314-s-2026-308.github.io/01-Organization/Team-Organization/)
+> To understand our process of generating concepts and the design, please visit the [concept generation and design ideation page.](https://egr314-s-2026-308.github.io/02-Concept-Design/Design/)
+> To understand our project requirements, please visit the [project requirements page.](https://egr314-s-2026-308.github.io/03-Project-Requirements/Project-requirements/)
 
 
 ## **Team Members Datasheet links**

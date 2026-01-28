@@ -17,7 +17,7 @@ This meant that we would need to isolate specific probes that would be useful in
 
 ## **Requirements**
 
-<!--Put features list here --> ~~Buoy Cable ring~~, Antenna, Test Probes, Flashlight, Optical Dome, ~~Side thrusters, Back Thrusters, Metal Cage~~
+<!--Put features list here  ~~Buoy Cable ring~~, Antenna, Test Probes, Flashlight, Optical Dome, ~~Side thrusters, Back Thrusters, Metal Cage~~ -->
 
 <!--
 Core Focus: Structural survival in high-pressure, high-risk environments.
