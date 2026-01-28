@@ -700,3 +700,5 @@ We decided to go with the "Rugged Industrial Surveyor" design.
 ![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
 <br>
 This is due to it's feasibility, ability to see while maneuvering and protecting the machine itself. The nature of protecting the machinery from the environment and pressure were at the core of this design. Otherwise we wanted to ensure the barrier preventing human interference near moving parts was prevalent for safety concerns. Finally, having a design which keeps geometry simple also allows us to create easier to read safety guide sections for human users.
+
+A PDF version of the Concept Geneation can be found [here](Concept_Gen.pdf)
