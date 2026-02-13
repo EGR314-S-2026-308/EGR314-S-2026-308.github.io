@@ -2,8 +2,6 @@
 title: Block Diagram, Protocol, and Message Structure
 ---
 
-Draft *(Please Delete me)*
-
 ## 1. Team Block Diagram 
 
 Below is a Block Diagram built of our project. In this figure we will show how we intend to connect our individual subsystems to build our project. We plan on mainly cominucating thorugh UART. However our HMI and Controler systems do also have a wireless comuncation protical. 
@@ -16,6 +14,7 @@ Below is a Block Diagram built of our project. In this figure we will show how w
 
 This diagram will demonstrate how our commincation will travel through our system for each message type.
 
+Test
 ``` mermaid
 sequenceDiagram
     actor User
