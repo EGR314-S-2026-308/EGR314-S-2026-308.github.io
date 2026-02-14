@@ -84,3 +84,13 @@ sequenceDiagram
 ## 3. Message Types
 
 We will mainly be utalizing UART comminication.
+
+
+
+Message Type 67:
+
+| **Byte 1-2(uint16_t)** | **Byte 3 (uint8_t)** |
+| :--------------------: | :------------------: |
+| 0x43                   | Button # (uint8_t)   |
+
+The rest of the Bytes can be a string containing a message or empty space.
