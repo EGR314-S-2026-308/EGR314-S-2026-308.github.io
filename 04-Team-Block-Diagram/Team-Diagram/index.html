@@ -635,6 +635,48 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="2. Sequence Diagram of Team Communication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#motor-set-parameter-and-print-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      Motor set parameter and print value:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#return-a-sensor-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      Return a sensor value:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsystem-status-check-codemessage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subsystem Status Check Code/Message:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsystem-error-codemessage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subsystem Error Code/Message:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -750,6 +792,48 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="2. Sequence Diagram of Team Communication">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#motor-set-parameter-and-print-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      Motor set parameter and print value:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#return-a-sensor-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      Return a sensor value:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsystem-status-check-codemessage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subsystem Status Check Code/Message:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#subsystem-error-codemessage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Subsystem Error Code/Message:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -790,7 +874,7 @@
 <p>Below is a Block Diagram built of our project. In this figure we will show how we intend to connect our individual subsystems to build our project. We plan on mainly communicating through UART. However our HMI and Controller systems do also have a wireless communication protocol.</p>
 <h2 id="2-sequence-diagram-of-team-communication">2. Sequence Diagram of Team Communication</h2>
 <p>This diagram will demonstrate how our communication will travel through our system for each message type.</p>
-<p>Motor set parameter and print value:</p>
+<h3 id="motor-set-parameter-and-print-value">Motor set parameter and print value:</h3>
 <pre class="mermaid"><code>sequenceDiagram
     autonumber
     actor User
@@ -811,7 +895,7 @@
         Adrian-&gt;&gt;SamB: Motors going forward at ___ speed.
         SamB-&gt;&gt;User: Moving forward at this speed.
     end</code></pre>
-<p>Return a sensor value:</p>
+<h3 id="return-a-sensor-value">Return a sensor value:</h3>
 <pre class="mermaid"><code>sequenceDiagram
     autonumber
     actor User
@@ -825,7 +909,7 @@
     Mo-&gt;&gt;Adrian: Here's the temperature.
     Adrian-&gt;&gt;+SamB: Here's the temperature value.
     SamB-&gt;&gt;+User: Here's the temperature requested.</code></pre>
-<p>Subsystem Status Check Code/Message:</p>
+<h3 id="subsystem-status-check-codemessage">Subsystem Status Check Code/Message:</h3>
 <pre class="mermaid"><code>sequenceDiagram
     autonumber
     actor User
@@ -867,7 +951,7 @@
     Adrian-&gt;&gt;SamB: [SM:OK]
     SamB-&gt;&gt;User: System Ready
 </code></pre>
-<p>Subsystem Error Code/Message:</p>
+<h3 id="subsystem-error-codemessage">Subsystem Error Code/Message:</h3>
 <pre class="mermaid"><code>sequenceDiagram
     autonumber
     actor User
