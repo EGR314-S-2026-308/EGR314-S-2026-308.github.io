@@ -57,7 +57,53 @@ sequenceDiagram
     SamB->>+User: Here's the temperature requested.
 ```
 
-Subsystem Code/Message:
+Subsystem Status Check Code/Message:
+
+``` mermaid
+sequenceDiagram
+    autonumber
+    actor User
+    participant HMI
+    participant SamB
+    participant Adrian
+    participant Andrew
+    participant Jacob
+    participant Sam
+    participant SamM
+    participant Mo
+
+    User->>SamB: Request Status Check
+    SamB->>Adrian: Initiate Status Check
+
+    Adrian->>Andrew: Status [Adrian: OK]
+    Andrew->>Jacob: Status [Adrian: OK, Andrew: OK]
+    Jacob->>Sam: Status [Adrian: OK, Andrew: OK, Jacob: OK]
+    Sam->>SamM: Status [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK]
+
+    SamM->>Mo: Status [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK, SamM: N_OK]
+    Mo->>Adrian: Forward [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK, SamM: N_OK]
+
+    Adrian->>SamB: Alert [SamM: N_OK]
+    SamB->>User: Temperature Sensor Failure
+
+    loop Until SamM OK
+        Adrian->>Andrew: Recheck Status
+        Andrew->>Jacob: Forward Check
+        Jacob->>Sam: Forward Check
+        Sam->>SamM: Recheck Status
+        SamM->>Mo: Status [SamM: NOT OK]
+        Mo->>Adrian: Forward [SamM: NOT OK]
+        Adrian->>SamB: Rechecking
+        SamB->>User: System Not Ready
+    end
+
+    SamM->>Mo: Status [SamM: OK]
+    Mo->>Adrian: Forward [SamM: OK]
+    Adrian->>SamB: [SamM: OK]
+    SamB->>User: System Ready
+```
+
+Subsystem Error Code/Message:
 
 ``` mermaid
 sequenceDiagram
