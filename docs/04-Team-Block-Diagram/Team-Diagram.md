@@ -14,7 +14,7 @@ Below is a Block Diagram built of our project. In this figure we will show how w
 
 This diagram will demonstrate how our communication will travel through our system for each message type.
 
-Motor set parameter and print value:
+### Motor set parameter and print value:
 
 ``` mermaid
 sequenceDiagram
@@ -39,7 +39,7 @@ sequenceDiagram
     end
 ```
 
-Return a sensor value:
+### Return a sensor value:
 
 ``` mermaid
 sequenceDiagram
@@ -57,7 +57,7 @@ sequenceDiagram
     SamB->>+User: Here's the temperature requested.
 ```
 
-Subsystem Status Check Code/Message:
+### Subsystem Status Check Code/Message:
 
 ``` mermaid
 sequenceDiagram
@@ -103,7 +103,7 @@ sequenceDiagram
 
 ```
 
-Subsystem Error Code/Message:
+### Subsystem Error Code/Message:
 
 ``` mermaid
 sequenceDiagram
