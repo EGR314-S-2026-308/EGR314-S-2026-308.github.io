@@ -8,6 +8,8 @@ Below is a Block Diagram built of our project. In this figure we will show how w
 
 ![Individual Block diagram ](teamBlockDiagram.png)
 
+A PDF version of the block diagram can be found [here](TeamBlockDiagram.pdf)
+
 ## 2. Sequence Diagram of Team Communication
 
 This diagram will demonstrate how our communication will travel through our system for each message type.
