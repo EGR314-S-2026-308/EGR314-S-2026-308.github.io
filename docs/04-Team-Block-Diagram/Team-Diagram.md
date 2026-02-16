@@ -54,7 +54,48 @@ sequenceDiagram
     Adrian->>+SamB: Here's the temperature value.
     SamB->>+User: Here's the temperature requested.
 ```
+Subsystem Code/Message:
+``` mermaid
+sequenceDiagram
+    autonumber
+    actor User
+    participant SamB as Sam B 
+    participant Adrian as Adrian 
+    participant Andrew as Andrew
+    participant Jacob as Jacob 
+    participant Sam as Sam 
+    participant Mo as Mo 
 
+    Note over Jacob: Motor error!
+    Jacob->>Sam: Error 0x01 (Motor Stall)
+    Sam->>Mo: Error 0x01
+    Mo->>Adrian: Error 0x01
+    Adrian->>Andrew: Error 0x01
+    Andrew->>SamB: Error 0x01
+    
+    SamB->>User: Shows "MOTOR ERROR"
+    
+
+    
+    loop while error active
+        Adrian->>Andrew: Status check
+        Andrew->>Jacob: Status check
+        Jacob->>Sam: Motor still bad
+        Sam->>Mo: Motor still bad
+        Mo->>Adrian: Motor still bad
+        Adrian->>SamB: Motor not recovered
+        SamB->>User: "Shows Motor Error"
+    end
+    
+    Jacob->>Sam: Motor OK now
+    Sam->>Mo: Motor OK now
+    Mo->>Adrian: Motor OK now
+    Adrian->>Andrew: Motor OK now
+    Andrew->>SamB: Motor OK now
+    
+    SamB->>User: "System ready"
+```
+    
 TEST <!-- remove this example -->
 ``` mermaid
 sequenceDiagram
