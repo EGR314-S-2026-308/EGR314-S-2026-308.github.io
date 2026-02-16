@@ -840,15 +840,15 @@
     User-&gt;&gt;SamB: Request Status Check
     SamB-&gt;&gt;Adrian: Initiate Status Check
 
-    Adrian-&gt;&gt;Andrew: Status [Adrian: OK]
-    Andrew-&gt;&gt;Jacob: Status [Adrian: OK, Andrew: OK]
-    Jacob-&gt;&gt;Sam: Status [Adrian: OK, Andrew: OK, Jacob: OK]
-    Sam-&gt;&gt;SamM: Status [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK]
+    Adrian-&gt;&gt;Andrew: Status [Adr:OK]
+    Andrew-&gt;&gt;Jacob: Status [Adr:OK, A:OK]
+    Jacob-&gt;&gt;Sam: Status [Adr:OK, A:OK, J:OK]
+    Sam-&gt;&gt;SamM: Status [Adr:OK, A:OK, J:OK, S:OK]
 
-    SamM-&gt;&gt;Mo: Status [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK, SamM: N_OK]
-    Mo-&gt;&gt;Adrian: Forward [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK, SamM: N_OK]
+    SamM-&gt;&gt;Mo: Status [Adr:OK, A:OK, J:OK, S:OK, SM:N_OK]
+    Mo-&gt;&gt;Adrian: Forward [Adr:OK, A:OK, J:OK, S:OK, SM:N_OK]
 
-    Adrian-&gt;&gt;SamB: Alert [SamM: N_OK]
+    Adrian-&gt;&gt;SamB: Alert [SM:N_OK]
     SamB-&gt;&gt;User: Temperature Sensor Failure
 
     loop Until SamM OK
@@ -856,15 +856,15 @@
         Andrew-&gt;&gt;Jacob: Forward Check
         Jacob-&gt;&gt;Sam: Forward Check
         Sam-&gt;&gt;SamM: Recheck Status
-        SamM-&gt;&gt;Mo: Status [SamM: NOT OK]
-        Mo-&gt;&gt;Adrian: Forward [SamM: NOT OK]
+        SamM-&gt;&gt;Mo: Status [SM:N_OK]
+        Mo-&gt;&gt;Adrian: Forward [SM:N_OK]
         Adrian-&gt;&gt;SamB: Rechecking
         SamB-&gt;&gt;User: System Not Ready
     end
 
-    SamM-&gt;&gt;Mo: Status [SamM: OK]
-    Mo-&gt;&gt;Adrian: Forward [SamM: OK]
-    Adrian-&gt;&gt;SamB: [SamM: OK]
+    SamM-&gt;&gt;Mo: Status [SM:OK]
+    Mo-&gt;&gt;Adrian: Forward [SM:OK]
+    Adrian-&gt;&gt;SamB: [SM:OK]
     SamB-&gt;&gt;User: System Ready</code></pre>
 <p>Subsystem Error Code/Message:</p>
 <pre class="mermaid"><code>sequenceDiagram
