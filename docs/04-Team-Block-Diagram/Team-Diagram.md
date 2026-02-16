@@ -167,20 +167,15 @@ sequenceDiagram
 
 We will mainly be utalizing UART comminication.
 
-
-
-Message Type 67:
-
-| **Message Num** | **Byte 1-2(uint16_t)** | **Byte 3 (uint8_t)** | **Byte 4**  | **Byte 5**  | **Byte 6**  |  **Byte 7**   |  **Byte 8**|
-
+| **Message Num** | **Byte 1-2(uint16_t)** | **Byte 3 (uint8_t)** | **Byte 4 (uint8_t)**  | **Byte 5 (uint8_t)**  | **Byte 6 (uint8_t)**  |  **Byte 7 (uint8_t)**   |  **Byte 8 (uint8_t)**|
 | :--------------:| :--------------------: | :------------------: | :---------: | :------- -: | :---------: | :-----------: | :----------: |
-|        1        |                        |                      |             |             |             |               |              |
-|        2        |                        |                      |             |             |             |               |              |
-|        3        |                        |                      |             |             |             |               |              |
-|        10       |                        |                      |             |             |             |               |              |
-|        11       |                        |                      |             |             |             |               |              |
-|        12       |                        |                      |             |             |             |               |              |
-|        13       |                        |                      |             |             |             |               |              |
-|        67       | 0x43                   | Button # (uint8_t)   |             |             |             |               |              |
+|        1        |         0x01           |     Motor number     | Upper number | Lower number | String Space | String Space | String Space |
+|        2        |         0x02           |     Motor number     | Upper number | Lower number |  String Space  | String Space | String Space |
+|        3        |         0x03           |     Sensor number    | Upper number | Lower number |  String Space  | String Space | String Space |
+|        10       |         0x0A           |     Subsystem number | Upper number | Lower number |  String Space  | String Space | String Space |
+|        11       |         0x0B           |    Subsystem number  |  String Space  |  String Space  |  String Space  |  String Space  |  String Space  |
+|        12       |         0x0C           |    Subsystem number  | Upper number | Lower number |  String Space  | String Space | String Space |
+|        13       |         0x0D           |    Subsystem number  | String Space | String Space | String Space | String Space | String Space |
+|        67       | 0x43                   | Button # (uint8_t)   | String Space | String Space | String Space | String Space | String Space |
 
 The rest of the Bytes can be a string containing a message or empty space.
