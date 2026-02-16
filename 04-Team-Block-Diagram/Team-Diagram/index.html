@@ -824,7 +824,46 @@
     SamM-&gt;&gt;Mo: Here's the temperature.
     Mo-&gt;&gt;Adrian: Here's the temperature.
     Adrian-&gt;&gt;+SamB: Here's the temperature value.
-    SamB-&gt;&gt;+User: Here's the temperature requested.</code></pre><p></p>
+    SamB-&gt;&gt;+User: Here's the temperature requested.</code></pre>
+Subsystem Code/Message:
+<pre class="mermaid"><code>sequenceDiagram
+    autonumber
+    actor User
+    participant SamB as Sam B 
+    participant Adrian as Adrian 
+    participant Andrew as Andrew
+    participant Jacob as Jacob 
+    participant Sam as Sam 
+    participant Mo as Mo 
+
+    Note over Jacob: Motor error!
+    Jacob-&gt;&gt;Sam: Error 0x01 (Motor Stall)
+    Sam-&gt;&gt;Mo: Error 0x01
+    Mo-&gt;&gt;Adrian: Error 0x01
+    Adrian-&gt;&gt;Andrew: Error 0x01
+    Andrew-&gt;&gt;SamB: Error 0x01
+
+    SamB-&gt;&gt;User: Shows "MOTOR ERROR"
+
+
+
+    loop while error active
+        Adrian-&gt;&gt;Andrew: Status check
+        Andrew-&gt;&gt;Jacob: Status check
+        Jacob-&gt;&gt;Sam: Motor still bad
+        Sam-&gt;&gt;Mo: Motor still bad
+        Mo-&gt;&gt;Adrian: Motor still bad
+        Adrian-&gt;&gt;SamB: Motor not recovered
+        SamB-&gt;&gt;User: "Shows Motor Error"
+    end
+
+    Jacob-&gt;&gt;Sam: Motor OK now
+    Sam-&gt;&gt;Mo: Motor OK now
+    Mo-&gt;&gt;Adrian: Motor OK now
+    Adrian-&gt;&gt;Andrew: Motor OK now
+    Andrew-&gt;&gt;SamB: Motor OK now
+
+    SamB-&gt;&gt;User: "System ready"</code></pre><p></p>
 <p>TEST <!-- remove this example -->
 </p><pre class="mermaid"><code>sequenceDiagram
     actor User
