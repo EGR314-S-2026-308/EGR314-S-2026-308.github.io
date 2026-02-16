@@ -2,13 +2,11 @@
 title: Block Diagram, Protocol, and Message Structure
 ---
 
-## 1. Team Block Diagram 
+## 1. Team Block Diagram
 
 Below is a Block Diagram built of our project. In this figure we will show how we intend to connect our individual subsystems to build our project. We plan on mainly communicating through UART. However our HMI and Controller systems do also have a wireless communication protocol.
 
-
-
-
+![team block image](teamBlockDiagram.png)
 
 ## 2. Sequence Diagram of Team Communication
 
@@ -157,8 +155,16 @@ We will mainly be utalizing UART comminication.
 
 Message Type 67:
 
-| **Byte 1-2(uint16_t)** | **Byte 3 (uint8_t)** |
-| :--------------------: | :------------------: |
-| 0x43                   | Button # (uint8_t)   |
+| **Message Num** | **Byte 1-2(uint16_t)** | **Byte 3 (uint8_t)** | **Byte 4**  | **Byte 5**  | **Byte 6**  |  **Byte 7**   |  **Byte 8**|
+
+| :--------------:| :--------------------: | :------------------: | :---------: | :------- -: | :---------: | :-----------: | :----------: |
+|        1        |                        |                      |             |             |             |               |              |
+|        2        |                        |                      |             |             |             |               |              |
+|        3        |                        |                      |             |             |             |               |              |
+|        10       |                        |                      |             |             |             |               |              |
+|        11       |                        |                      |             |             |             |               |              |
+|        12       |                        |                      |             |             |             |               |              |
+|        13       |                        |                      |             |             |             |               |              |
+|        67       | 0x43                   | Button # (uint8_t)   |             |             |             |               |              |
 
 The rest of the Bytes can be a string containing a message or empty space.
