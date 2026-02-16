@@ -19,6 +19,7 @@ Professor Kevin Nichols<br>
 > To view our team organization information, please visit the [team organization page.](https://egr314-s-2026-308.github.io/01-Organization/Team-Organization/)
 > To understand our process of generating concepts and the design, please visit the [concept generation and design ideation page.](https://egr314-s-2026-308.github.io/02-Concept-Design/Design/)
 > To understand our project requirements, please visit the [project requirements page.](https://egr314-s-2026-308.github.io/03-Project-Requirements/Project-requirements/)
+> To understand how our project is designed to work together please visit the [Team Block Diagram page.](https://egr314-s-2026-308.github.io/04-Team-Block-Diagram/Team-Diagram/)
 
 
 ## **Team Members Datasheet links**
