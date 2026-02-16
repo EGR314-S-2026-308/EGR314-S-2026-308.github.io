@@ -74,22 +74,23 @@ sequenceDiagram
     User->>SamB: Request Status Check
     SamB->>Adrian: Initiate Status Check
 
+    Adrian->>Andrew: Status Check
     Adrian->>Andrew: Status [Adr:OK]
+    Andrew->>Jacob: Status Check
     Andrew->>Jacob: Status [Adr:OK, A:OK]
-    Jacob->>Sam: Status [Adr:OK, A:OK, J:OK]
-    Sam->>SamM: Status [Adr:OK, A:OK, J:OK, S:OK]
-
-    SamM->>Mo: Status [Adr:OK, A:OK, J:OK, S:OK, SM:N_OK]
-    Mo->>Adrian: Forward [Adr:OK, A:OK, J:OK, S:OK, SM:N_OK]
+    Jacob->>SamM: Status Check
+    Jacob->>SamM: Status [Adr:OK, A:OK, J:OK,]
+    SamM->>Mo: Status Check
+    SamM->>Mo: Status [Adr:OK, A:OK, J:OK, SM:N_OK]
+    Mo->>Adrian: Status [Adr:OK, A:OK, J:OK, SM:N_OK, M:OK]
 
     Adrian->>SamB: Alert [SM:N_OK]
     SamB->>User: Temperature Sensor Failure
 
     loop Until SamM OK
-        Adrian->>Andrew: Recheck Status
-        Andrew->>Jacob: Forward Check
-        Jacob->>Sam: Forward Check
-        Sam->>SamM: Recheck Status
+        Adrian->>Andrew: Check Status SM
+        Andrew->>Jacob: Check Status SM
+        Jacob->>SamM: Check Status SM
         SamM->>Mo: Status [SM:N_OK]
         Mo->>Adrian: Forward [SM:N_OK]
         Adrian->>SamB: Rechecking
@@ -100,6 +101,7 @@ sequenceDiagram
     Mo->>Adrian: Forward [SM:OK]
     Adrian->>SamB: [SM:OK]
     SamB->>User: System Ready
+
 ```
 
 Subsystem Error Code/Message:
