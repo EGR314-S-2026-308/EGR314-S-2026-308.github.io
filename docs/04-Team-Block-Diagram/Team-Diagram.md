@@ -67,7 +67,6 @@ sequenceDiagram
     participant Adrian
     participant Andrew
     participant Jacob
-    participant Sam
     participant SamM
     participant Mo
 
