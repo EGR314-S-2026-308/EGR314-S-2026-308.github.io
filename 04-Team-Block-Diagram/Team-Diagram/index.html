@@ -1026,20 +1026,16 @@
 <h2 id="3-message-types">3. Message Types</h2>
 <p>We will mainly be utalizing UART comminication.</p>
 <p>Message Type 67:</p>
-<table>
-<thead>
-<tr>
-<th style="text-align: center;"><strong>Byte 1-2(uint16_t)</strong></th>
-<th style="text-align: center;"><strong>Byte 3 (uint8_t)</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">0x43</td>
-<td style="text-align: center;">Button # (uint8_t)</td>
-</tr>
-</tbody>
-</table>
+<p>| <strong>Message Num</strong> | <strong>Byte 1-2(uint16_t)</strong> | <strong>Byte 3 (uint8_t)</strong> | <strong>Byte 4</strong>  | <strong>Byte 5</strong>  | <strong>Byte 6</strong>  |  <strong>Byte 7</strong>   |  <strong>Byte 8</strong>|</p>
+<p>| :--------------:| :--------------------: | :------------------: | :---------: | :------- -: | :---------: | :-----------: | :----------: |
+|        1        |                        |                      |             |             |             |               |              |
+|        2        |                        |                      |             |             |             |               |              |
+|        3        |                        |                      |             |             |             |               |              |
+|        10       |                        |                      |             |             |             |               |              |
+|        11       |                        |                      |             |             |             |               |              |
+|        12       |                        |                      |             |             |             |               |              |
+|        13       |                        |                      |             |             |             |               |              |
+|        67       | 0x43                   | Button # (uint8_t)   |             |             |             |               |              |</p>
 <p>The rest of the Bytes can be a string containing a message or empty space.</p>
 
 
