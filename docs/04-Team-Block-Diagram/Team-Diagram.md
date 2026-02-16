@@ -74,15 +74,15 @@ sequenceDiagram
     User->>SamB: Request Status Check
     SamB->>Adrian: Initiate Status Check
 
-    Adrian->>Andrew: Status [Adrian: OK]
-    Andrew->>Jacob: Status [Adrian: OK, Andrew: OK]
-    Jacob->>Sam: Status [Adrian: OK, Andrew: OK, Jacob: OK]
-    Sam->>SamM: Status [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK]
+    Adrian->>Andrew: Status [Adr:OK]
+    Andrew->>Jacob: Status [Adr:OK, A:OK]
+    Jacob->>Sam: Status [Adr:OK, A:OK, J:OK]
+    Sam->>SamM: Status [Adr:OK, A:OK, J:OK, S:OK]
 
-    SamM->>Mo: Status [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK, SamM: N_OK]
-    Mo->>Adrian: Forward [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK, SamM: N_OK]
+    SamM->>Mo: Status [Adr:OK, A:OK, J:OK, S:OK, SM:N_OK]
+    Mo->>Adrian: Forward [Adr:OK, A:OK, J:OK, S:OK, SM:N_OK]
 
-    Adrian->>SamB: Alert [SamM: N_OK]
+    Adrian->>SamB: Alert [SM:N_OK]
     SamB->>User: Temperature Sensor Failure
 
     loop Until SamM OK
@@ -90,15 +90,15 @@ sequenceDiagram
         Andrew->>Jacob: Forward Check
         Jacob->>Sam: Forward Check
         Sam->>SamM: Recheck Status
-        SamM->>Mo: Status [SamM: NOT OK]
-        Mo->>Adrian: Forward [SamM: NOT OK]
+        SamM->>Mo: Status [SM:N_OK]
+        Mo->>Adrian: Forward [SM:N_OK]
         Adrian->>SamB: Rechecking
         SamB->>User: System Not Ready
     end
 
-    SamM->>Mo: Status [SamM: OK]
-    Mo->>Adrian: Forward [SamM: OK]
-    Adrian->>SamB: [SamM: OK]
+    SamM->>Mo: Status [SM:OK]
+    Mo->>Adrian: Forward [SM:OK]
+    Adrian->>SamB: [SM:OK]
     SamB->>User: System Ready
 ```
 
