@@ -15,6 +15,7 @@ Below is a Block Diagram built of our project. In this figure we will show how w
 This diagram will demonstrate how our communication will travel through our system for each message type.
 
 Motor set parameter and print value:
+
 ``` mermaid
 sequenceDiagram
     autonumber
@@ -39,6 +40,7 @@ sequenceDiagram
 ```
 
 Return a sensor value:
+
 ``` mermaid
 sequenceDiagram
     autonumber
@@ -54,11 +56,14 @@ sequenceDiagram
     Adrian->>+SamB: Here's the temperature value.
     SamB->>+User: Here's the temperature requested.
 ```
+
 Subsystem Code/Message:
+
 ``` mermaid
 sequenceDiagram
     autonumber
     actor User
+    participant HMI
     participant SamB as Sam B 
     participant Adrian as Adrian 
     participant Andrew as Andrew
