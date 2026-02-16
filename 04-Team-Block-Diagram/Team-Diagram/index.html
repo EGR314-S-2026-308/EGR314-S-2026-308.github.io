@@ -872,7 +872,6 @@
 
 <h2 id="1-team-block-diagram">1. Team Block Diagram</h2>
 <p>Below is a Block Diagram built of our project. In this figure we will show how we intend to connect our individual subsystems to build our project. We plan on mainly communicating through UART. However our HMI and Controller systems do also have a wireless communication protocol.</p>
-<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../teamBlockDiagram.png" data-desc-position="bottom"><img alt="Team Block diagram" src="../teamBlockDiagram.png"></a></p>
 <h2 id="2-sequence-diagram-of-team-communication">2. Sequence Diagram of Team Communication</h2>
 <p>This diagram will demonstrate how our communication will travel through our system for each message type.</p>
 <h3 id="motor-set-parameter-and-print-value">Motor set parameter and print value:</h3>
@@ -992,29 +991,6 @@
     Andrew-&gt;&gt;SamB: Motor OK now
 
     SamB-&gt;&gt;User: "System ready"</code></pre>
-<p>TEST <!-- remove this example -->
-</p><pre class="mermaid"><code>sequenceDiagram
-    actor User
-    participant HMI
-    User-&gt;&gt;+SamB: Hello John, how are you?
-    SamB-&gt;&gt;+John:Hi
-    Alice-&gt;&gt;+John: John, can you hear me?
-    John--&gt;&gt;-Alice: Hi Alice, I can hear you!
-    John--&gt;&gt;-Alice: How are you doing?
-    Alice-&gt;&gt;+John: I can add as I want to Live
-    loop Hello or condition (i&lt;5, i++)
-        SamB-&gt;&gt;+John: Start loop line
-        John-&gt;&gt;Alice: We can talk like this too
-        Alice-&gt;&gt;+SamB: John is bothering me
-    end
-     alt (condition)
-        Bob--&gt;&gt;Alice: Sending data
-    else alt (condition)
-        Bob--&gt;&gt;Alice: No data found
-        else (HI I'm third case)
-        Bob--&gt;&gt;Alice: Error 404
-    end
-    John-&gt;&gt;-SamB: What's good</code></pre><p></p>
 <h2 id="3-message-types">3. Message Types</h2>
 <p>We will mainly be utalizing UART comminication.</p>
 <p>Message Type 67:</p>
