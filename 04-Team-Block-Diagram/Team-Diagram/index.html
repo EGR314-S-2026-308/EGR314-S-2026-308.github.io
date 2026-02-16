@@ -790,8 +790,8 @@
 <p>Below is a Block Diagram built of our project. In this figure we will show how we intend to connect our individual subsystems to build our project. We plan on mainly communicating through UART. However our HMI and Controller systems do also have a wireless communication protocol.</p>
 <h2 id="2-sequence-diagram-of-team-communication">2. Sequence Diagram of Team Communication</h2>
 <p>This diagram will demonstrate how our communication will travel through our system for each message type.</p>
-<p>Motor set parameter and print value:
-</p><pre class="mermaid"><code>sequenceDiagram
+<p>Motor set parameter and print value:</p>
+<pre class="mermaid"><code>sequenceDiagram
     autonumber
     actor User
     participant HMI
@@ -810,9 +810,9 @@
         Mo-&gt;&gt;+Adrian:Print forward speed value.
         Adrian-&gt;&gt;SamB: Motors going forward at ___ speed.
         SamB-&gt;&gt;User: Moving forward at this speed.
-    end</code></pre><p></p>
-<p>Return a sensor value:
-</p><pre class="mermaid"><code>sequenceDiagram
+    end</code></pre>
+<p>Return a sensor value:</p>
+<pre class="mermaid"><code>sequenceDiagram
     autonumber
     actor User
     participant HMI
@@ -825,10 +825,11 @@
     Mo-&gt;&gt;Adrian: Here's the temperature.
     Adrian-&gt;&gt;+SamB: Here's the temperature value.
     SamB-&gt;&gt;+User: Here's the temperature requested.</code></pre>
-Subsystem Code/Message:
+<p>Subsystem Code/Message:</p>
 <pre class="mermaid"><code>sequenceDiagram
     autonumber
     actor User
+    participant HMI
     participant SamB as Sam B 
     participant Adrian as Adrian 
     participant Andrew as Andrew
@@ -863,7 +864,7 @@ Subsystem Code/Message:
     Adrian-&gt;&gt;Andrew: Motor OK now
     Andrew-&gt;&gt;SamB: Motor OK now
 
-    SamB-&gt;&gt;User: "System ready"</code></pre><p></p>
+    SamB-&gt;&gt;User: "System ready"</code></pre>
 <p>TEST <!-- remove this example -->
 </p><pre class="mermaid"><code>sequenceDiagram
     actor User
