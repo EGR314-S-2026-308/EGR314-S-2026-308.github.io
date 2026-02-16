@@ -825,7 +825,49 @@
     Mo-&gt;&gt;Adrian: Here's the temperature.
     Adrian-&gt;&gt;+SamB: Here's the temperature value.
     SamB-&gt;&gt;+User: Here's the temperature requested.</code></pre>
-<p>Subsystem Code/Message:</p>
+<p>Subsystem Status Check Code/Message:</p>
+<pre class="mermaid"><code>sequenceDiagram
+    autonumber
+    actor User
+    participant HMI
+    participant SamB
+    participant Adrian
+    participant Andrew
+    participant Jacob
+    participant Sam
+    participant SamM
+    participant Mo
+
+    User-&gt;&gt;SamB: Request Status Check
+    SamB-&gt;&gt;Adrian: Initiate Status Check
+
+    Adrian-&gt;&gt;Andrew: Status [Adrian: OK]
+    Andrew-&gt;&gt;Jacob: Status [Adrian: OK, Andrew: OK]
+    Jacob-&gt;&gt;Sam: Status [Adrian: OK, Andrew: OK, Jacob: OK]
+    Sam-&gt;&gt;SamM: Status [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK]
+
+    SamM-&gt;&gt;Mo: Status [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK, SamM: N_OK]
+    Mo-&gt;&gt;Adrian: Forward [Adrian: OK, Andrew: OK, Jacob: OK, Sam: OK, SamM: N_OK]
+
+    Adrian-&gt;&gt;SamB: Alert [SamM: N_OK]
+    SamB-&gt;&gt;User: Temperature Sensor Failure
+
+    loop Until SamM OK
+        Adrian-&gt;&gt;Andrew: Recheck Status
+        Andrew-&gt;&gt;Jacob: Forward Check
+        Jacob-&gt;&gt;Sam: Forward Check
+        Sam-&gt;&gt;SamM: Recheck Status
+        SamM-&gt;&gt;Mo: Status [SamM: NOT OK]
+        Mo-&gt;&gt;Adrian: Forward [SamM: NOT OK]
+        Adrian-&gt;&gt;SamB: Rechecking
+        SamB-&gt;&gt;User: System Not Ready
+    end
+
+    SamM-&gt;&gt;Mo: Status [SamM: OK]
+    Mo-&gt;&gt;Adrian: Forward [SamM: OK]
+    Adrian-&gt;&gt;SamB: [SamM: OK]
+    SamB-&gt;&gt;User: System Ready</code></pre>
+<p>Subsystem Error Code/Message:</p>
 <pre class="mermaid"><code>sequenceDiagram
     autonumber
     actor User
