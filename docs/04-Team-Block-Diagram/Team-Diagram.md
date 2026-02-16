@@ -6,7 +6,7 @@ title: Block Diagram, Protocol, and Message Structure
 
 Below is a Block Diagram built of our project. In this figure we will show how we intend to connect our individual subsystems to build our project. We plan on mainly communicating through UART. However our HMI and Controller systems do also have a wireless communication protocol.
 
-![Team Block diagram](EGR314_teamBlockDiagram.drawio.png)
+![Team Block diagram](teamBlockDiagram.png)
 
 ## 2. Sequence Diagram of Team Communication
 
