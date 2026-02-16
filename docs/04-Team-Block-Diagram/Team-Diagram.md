@@ -6,9 +6,7 @@ title: Block Diagram, Protocol, and Message Structure
 
 Below is a Block Diagram built of our project. In this figure we will show how we intend to connect our individual subsystems to build our project. We plan on mainly communicating through UART. However our HMI and Controller systems do also have a wireless communication protocol.
 
-
-
-
+![Individual Block diagram ](teamBlockDiagram.png)
 
 ## 2. Sequence Diagram of Team Communication
 
@@ -147,7 +145,21 @@ sequenceDiagram
     SamB->>User: "System ready"
 ```
     
+### Subsystem State Change:
 
+``` mermaid
+sequenceDiagram
+    autonumber
+    actor User
+    participant HMI
+    User->>+SamB: Pushes D-pad.
+    SamB->>+Adrian:Start motors.
+    Adrian->>+Andrew:Start motors.
+    Andrew->>+Jacob: Start motors.
+    Jacob->>+SamM: Motors started.
+    SamM->>+Mo: Motors started.
+    Mo->>+Adrian: Motors started.
+```
 
 ## 3. Message Types
 
