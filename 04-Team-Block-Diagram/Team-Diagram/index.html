@@ -1025,17 +1025,102 @@
     Mo-&gt;&gt;+Adrian: Motors started.</code></pre>
 <h2 id="3-message-types">3. Message Types</h2>
 <p>We will mainly be utalizing UART comminication.</p>
-<p>Message Type 67:</p>
-<p>| <strong>Message Num</strong> | <strong>Byte 1-2(uint16_t)</strong> | <strong>Byte 3 (uint8_t)</strong> | <strong>Byte 4</strong>  | <strong>Byte 5</strong>  | <strong>Byte 6</strong>  |  <strong>Byte 7</strong>   |  <strong>Byte 8</strong>|</p>
-<p>| :--------------:| :--------------------: | :------------------: | :---------: | :------- -: | :---------: | :-----------: | :----------: |
-|        1        |                        |                      |             |             |             |               |              |
-|        2        |                        |                      |             |             |             |               |              |
-|        3        |                        |                      |             |             |             |               |              |
-|        10       |                        |                      |             |             |             |               |              |
-|        11       |                        |                      |             |             |             |               |              |
-|        12       |                        |                      |             |             |             |               |              |
-|        13       |                        |                      |             |             |             |               |              |
-|        67       | 0x43                   | Button # (uint8_t)   |             |             |             |               |              |</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;"><strong>Message Num</strong></th>
+<th style="text-align: center;"><strong>Byte 1-2(uint16_t)</strong></th>
+<th style="text-align: center;"><strong>Byte 3 (uint8_t)</strong></th>
+<th style="text-align: center;"><strong>Byte 4 (uint8_t)</strong></th>
+<th style="text-align: center;"><strong>Byte 5 (uint8_t)</strong></th>
+<th style="text-align: center;"><strong>Byte 6 (uint8_t)</strong></th>
+<th style="text-align: center;"><strong>Byte 7 (uint8_t)</strong></th>
+<th style="text-align: center;"><strong>Byte 8 (uint8_t)</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">0x01</td>
+<td style="text-align: center;">Motor number</td>
+<td style="text-align: center;">Upper number</td>
+<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">0x02</td>
+<td style="text-align: center;">Motor number</td>
+<td style="text-align: center;">Upper number</td>
+<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">0x03</td>
+<td style="text-align: center;">Sensor number</td>
+<td style="text-align: center;">Upper number</td>
+<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">0x0A</td>
+<td style="text-align: center;">Subsystem number</td>
+<td style="text-align: center;">Upper number</td>
+<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: center;">0x0B</td>
+<td style="text-align: center;">Subsystem number</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: center;">0x0C</td>
+<td style="text-align: center;">Subsystem number</td>
+<td style="text-align: center;">Upper number</td>
+<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: center;">0x0D</td>
+<td style="text-align: center;">Subsystem number</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+</tr>
+<tr>
+<td style="text-align: center;">67</td>
+<td style="text-align: center;">0x43</td>
+<td style="text-align: center;">Button # (uint8_t)</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+</tr>
+</tbody>
+</table>
 <p>The rest of the Bytes can be a string containing a message or empty space.</p>
 
 
