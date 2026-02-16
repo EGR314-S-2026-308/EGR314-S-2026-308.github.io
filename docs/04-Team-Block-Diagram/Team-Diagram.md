@@ -63,7 +63,6 @@ Subsystem Status Check Code/Message:
 sequenceDiagram
     autonumber
     actor User
-    participant HMI
     participant SamB
     participant Adrian
     participant Andrew
