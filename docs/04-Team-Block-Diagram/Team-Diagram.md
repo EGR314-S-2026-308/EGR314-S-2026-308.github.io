@@ -6,7 +6,7 @@ title: Block Diagram, Protocol, and Message Structure
 
 Below is a Block Diagram built of our project. In this figure we will show how we intend to connect our individual subsystems to build our project. We plan on mainly communicating through UART. However our HMI and Controller systems do also have a wireless communication protocol.
 
-![Individual Block diagram ](teamBlockDiagram.png)
+![Individual Block diagram ](TeamBlockDiagram.png)
 
 A PDF version of the block diagram can be found [here](TeamBlockDiagram.pdf)
 
@@ -146,7 +146,7 @@ sequenceDiagram
     
     SamB->>User: "System ready"
 ```
-    
+
 ### Subsystem State Change:
 
 ``` mermaid
@@ -167,15 +167,13 @@ sequenceDiagram
 
 We will mainly be utalizing UART comminication.
 
-| **Message Num** | **Byte 1-2(uint16_t)** | **Byte 3 (uint8_t)** | **Byte 4 (uint8_t)**  | **Byte 5 (uint8_t)**  | **Byte 6 (uint8_t)**  |  **Byte 7 (uint8_t)**   |  **Byte 8 (uint8_t)**|
-| :--------------:| :--------------------: | :------------------: | :---------: | :------- -: | :---------: | :-----------: | :----------: |
-|        1        |         0x01           |     Motor number     | Upper number | Lower number | String Space | String Space | String Space |
-|        2        |         0x02           |     Motor number     | Upper number | Lower number |  String Space  | String Space | String Space |
-|        3        |         0x03           |     Sensor number    | Upper number | Lower number |  String Space  | String Space | String Space |
-|        10       |         0x0A           |     Subsystem number | Upper number | Lower number |  String Space  | String Space | String Space |
-|        11       |         0x0B           |    Subsystem number  |  String Space  |  String Space  |  String Space  |  String Space  |  String Space  |
-|        12       |         0x0C           |    Subsystem number  | Upper number | Lower number |  String Space  | String Space | String Space |
-|        13       |         0x0D           |    Subsystem number  | String Space | String Space | String Space | String Space | String Space |
-|        67       | 0x43                   | Button # (uint8_t)   | String Space | String Space | String Space | String Space | String Space |
-
-The rest of the Bytes can be a string containing a message or empty space.
+| **Message Num** | **Byte 1-2(uint16_t)** | **Byte 3 (uint8_t)** | **Byte 4 (uint8_t)** | **Byte 5 (uint8_t)**  | **Byte 6 (uint8_t)**  | **Byte 7 (uint8_t)**  |  **Byte 8 (uint8_t)**   |
+| :--------------:| :--------------------: | :------------------: | :------------------: | :-------------------: | :-------------------: | :-------------------: | :---------------------: |
+|        1        |         0x01           |    Subsystem number  | Motor number         | Upper number          | Lower number          | String Space          | String Space            |
+|        2        |         0x02           |    Subsystem number  | Motor number         | Upper number          | Lower number          | String Space          | String Space            |
+|        3        |         0x03           |    Subsystem number  | Sensor number        | Upper number          | Lower number          | String Space          | String Space            |
+|        10       |         0x0A           |    Subsystem number  | Upper number         | Lower number          | String Space          | String Space          | String Space            |
+|        11       |         0x0B           |    Subsystem number  | String Space         | String Space          | String Space          | String Space          | String Space            |
+|        12       |         0x0C           |    Subsystem number  | Upper number         | Lower number          | String Space          | String Space          | String Space            |
+|        13       |         0x0D           |    Subsystem number  | String Space         | String Space          | String Space          | String Space          | String Space            |
+|        67       |         0x43           |    Subsystem number  | Button # (uint8_t)   | String Space          | String Space          | String Space          | String Space            |

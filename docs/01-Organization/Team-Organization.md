@@ -14,7 +14,7 @@ The team came about this team charter by applying our understanding of the ASU c
 
 ## Product Mission Statement
 
- 308's mission is to offer a water-based exploratory solution to allow users to further understand changes over time and monitor environments from a nearby position.
+ > 308's mission is to offer a water-based exploratory solution to allow users to further understand changes over time and monitor environments from a nearby position.
 
 ## Other Organizational Information
 

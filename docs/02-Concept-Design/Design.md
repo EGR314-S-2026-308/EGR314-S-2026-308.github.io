@@ -645,7 +645,7 @@ Battery Ejection: Niche safety feature for emergency weight shedding.
 
 ## **Concepts**
 
-1) Rugged Industrial Surveyor
+1) **Rugged Industrial Surveyor**
 
 ![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
 This is a structure designed to withstand extreme pressure with its components sealed in a waterproof enclosure made of corrosion-resistant materials. It is designed for "long-term exposure to water and pressure ."
@@ -655,7 +655,7 @@ The rovers antenna provides wireless communication between the rover and the use
 
 To improve durability of the rover, all user controls will be made by wireless communication and pre-coded operations. Instructions will come in the form of manuals and online videos available on the control app. Any change to the device will require a disassembly of the enclosure to get into the components, reducing the ease of modification and control ,but improving the overall structural integrity of the rover.
 
-2) The Rapid-Response Scout
+2) **The Rapid-Response Scout**
 
 ![The Rapid-Response Scout](Sources/AndrewConcept_V2.svg)
 
@@ -665,7 +665,7 @@ The rover is equipped with four motors attached to an aerodynamic frame to glide
 
 To create a lightweight design, all rover control modules and done via Human Machine Interface on a remote controller equipped with a screen to receive live feed from the camera module and data from the test probes. The rover will come with a detailed manual on operations and even modifications and repair.
 
-1) The Environmental Monitor
+3) **The Environmental Monitor**
 
 ![The Environmental Monitor](Sources/SamConcept.svg)
 
@@ -701,4 +701,4 @@ We decided to go with the "Rugged Industrial Surveyor" design.
 <br>
 This is due to it's feasibility, ability to see while maneuvering and protecting the machine itself. The nature of protecting the machinery from the environment and pressure were at the core of this design. Otherwise we wanted to ensure the barrier preventing human interference near moving parts was prevalent for safety concerns. Finally, having a design which keeps geometry simple also allows us to create easier to read safety guide sections for human users.
 
-A PDF version of the Concept Geneation can be found [here](Concept_Gen.pdf)
+A PDF version of the Concept Generation can be found [here](Concept_Gen.pdf)
