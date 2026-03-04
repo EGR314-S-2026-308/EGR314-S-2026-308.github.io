@@ -163,6 +163,37 @@ sequenceDiagram
     Mo->>+Adrian: Motors started.
 ```
 
+## Message Structure for Elimination:
+
+``` mermaid
+sequenceDiagram
+    autonumber
+    actor User
+    participant HMI
+
+    User->>+SamB: Hello John, how are you?
+    SamB->>+Adrian: System is running well.
+
+    Adrian->>+Andrew: Generic update request.
+
+    Andrew->>+Jacob: Generic update request.
+    Andrew->>-Jacob: Andrew's update.
+
+    Jacob->>+SamM: Generic update request.
+    Jacob->>SamM: Andrew's update.
+    Jacob->>-SamM: Jacob's update.
+
+    SamM->>+Mo: Generic update request.
+    SamM->>Mo:Andrew's update.
+    SamM->>Mo: Jacob's update.
+    SamM->>-Mo: SamM's update.
+
+    Mo->>+Adrian:  Generic update request.
+    Mo->>Adrian: Andrew's update.
+    Mo->>Adrian: Jacob's update.
+    Mo->>-Adrian: SamM's update.3
+```
+
 ## 3. Message Types
 
 We will mainly be utalizing UART comminication.
