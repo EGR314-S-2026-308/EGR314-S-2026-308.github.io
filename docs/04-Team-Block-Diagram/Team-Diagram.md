@@ -4,11 +4,11 @@ title: Block Diagram, Protocol, and Message Structure
 
 ## 1. Team Block Diagram
 
-Below is a Block Diagram built of our project. In this figure we will show how we intend to connect our individual subsystems to build our project. We plan on mainly communicating through UART. However our HMI and Controller systems do also have a wireless communication protocol.
+Below is a Block Diagram of our project. In this figure, we will show how we intend to connect our individual subsystems to build our project. We plan to mainly communicate via UART. However, our HMI and Controller systems also have a wireless communication protocol.
 
-![Individual Block diagram](image1.png)
+![Team Block diagram](TeamBlockDiagramV2.png)
 
-A PDF version of the block diagram can be found [here](TeamBlockDiagram.pdf)
+A PDF version of the block diagram can be found [here](TeamBlockDiagramV2.pdf)
 
 ## 2. Sequence Diagram of Team Communication
 
