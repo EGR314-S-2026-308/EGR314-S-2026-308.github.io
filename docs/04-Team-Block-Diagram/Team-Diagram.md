@@ -198,13 +198,18 @@ sequenceDiagram
 
 We will mainly be utalizing UART comminication.
 
-| **Message Num** | **Byte 1-2(uint16_t)** | **Byte 3 (uint8_t)** | **Byte 4 (uint8_t)** | **Byte 5 (uint8_t)**  | **Byte 6 (uint8_t)**  | **Byte 7 (uint8_t)**  |  **Byte 8 (uint8_t)**   |
-| :--------------:| :--------------------: | :------------------: | :------------------: | :-------------------: | :-------------------: | :-------------------: | :---------------------: |
-|        1        |         0x01           |    Subsystem number  | Motor number         | Upper number          | Lower number          | String Space          | String Space            |
-|        2        |         0x02           |    Subsystem number  | Motor number         | Upper number          | Lower number          | String Space          | String Space            |
-|        3        |         0x03           |    Subsystem number  | Sensor number        | Upper number          | Lower number          | String Space          | String Space            |
-|        10       |         0x0A           |    Subsystem number  | Upper number         | Lower number          | String Space          | String Space          | String Space            |
-|        11       |         0x0B           |    Subsystem number  | String Space         | String Space          | String Space          | String Space          | String Space            |
-|        12       |         0x0C           |    Subsystem number  | Upper number         | Lower number          | String Space          | String Space          | String Space            |
-|        13       |         0x0D           |    Subsystem number  | String Space         | String Space          | String Space          | String Space          | String Space            |
-|        67       |         0x43           |    Subsystem number  | Button # (uint8_t)   | String Space          | String Space          | String Space          | String Space            |
+| **Message Num** | **Byte 1-2(uint16_t)** | **Byte 3 (uint8_t)** | **Byte 4 (uint8_t)** | **Byte 5 (uint8_t)**  | **Byte 6 (uint8_t)**  | **Byte 7 (uint8_t)**  |  **Byte 8 (uint8_t)**   | **Purpose** |
+| :--------------:| :--------------------: | :------------------: | :------------------: | :-------------------: | :-------------------: | :-------------------: | :---------------------: |:---------------------: |
+|        1        |         0x01           |    Subsystem number  | Motor number         | Upper motor_Speed |  Lower Motor Speed | motor_Direction | String Space            | Set Motor speed parameter |
+|        2        |         0x02           |    Subsystem number  | Motor number         |  Upper motor_Speed |  Lower Motor Speed | motor_Direction | String Space            | Print motor speed |
+|        3        |         0x03           |    Subsystem number  | Sensor number        | Upper sensor number          | Lower sensor number          | String Space          | String Space            | Print Sensor Value |
+|        10       |         0x0A           |    Subsystem number  | Upper number         | Lower number          | String Space          | String Space          | String Space            | Subsystem error code |
+|        11       |         0x0B           |    Subsystem number  | String Space         | String Space          | String Space          | String Space          | String Space            | Subsystem error message |
+|        12       |         0x0C           |    Subsystem number  | Upper number         | Lower number          | String Space          | String Space          | String Space            | Subsystem status code |
+|        13       |         0x0D           |    Subsystem number  | String Space         | String Space          | String Space          | String Space          | String Space            | Subsystem status message |
+|        14       |         0x0E           |    Subsystem number  | Sending Subsystem Number | Upper number         | Lower number          | String Space          | String Space            | Subsystem error code response |
+|        15       |         0x0F           |    Subsystem number  | Sending Subsystem Number | Upper number         | Lower number          | String Space          | String Space            | Subsystem status code response |
+|        67       |         0x43           |    Subsystem number  | Button # (uint8_t)   | String Space          | String Space          |  String Space          | String Space          | Button x pushed |
+
+
+<!-- upper and lower number are due to byte range, >
