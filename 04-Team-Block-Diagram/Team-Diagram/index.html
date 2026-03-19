@@ -1147,6 +1147,7 @@
 <th style="text-align: center;"><strong>Byte 6 (uint8_t)</strong></th>
 <th style="text-align: center;"><strong>Byte 7 (uint8_t)</strong></th>
 <th style="text-align: center;"><strong>Byte 8 (uint8_t)</strong></th>
+<th style="text-align: center;"><strong>Purpose</strong></th>
 </tr>
 </thead>
 <tbody>
@@ -1155,30 +1156,33 @@
 <td style="text-align: center;">0x01</td>
 <td style="text-align: center;">Subsystem number</td>
 <td style="text-align: center;">Motor number</td>
-<td style="text-align: center;">Upper number</td>
-<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">Upper motor_Speed</td>
+<td style="text-align: center;">Lower Motor Speed</td>
+<td style="text-align: center;">motor_Direction</td>
 <td style="text-align: center;">String Space</td>
-<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Set Motor speed parameter</td>
 </tr>
 <tr>
 <td style="text-align: center;">2</td>
 <td style="text-align: center;">0x02</td>
 <td style="text-align: center;">Subsystem number</td>
 <td style="text-align: center;">Motor number</td>
-<td style="text-align: center;">Upper number</td>
-<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">Upper motor_Speed</td>
+<td style="text-align: center;">Lower Motor Speed</td>
+<td style="text-align: center;">motor_Direction</td>
 <td style="text-align: center;">String Space</td>
-<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Print motor speed</td>
 </tr>
 <tr>
 <td style="text-align: center;">3</td>
 <td style="text-align: center;">0x03</td>
 <td style="text-align: center;">Subsystem number</td>
 <td style="text-align: center;">Sensor number</td>
-<td style="text-align: center;">Upper number</td>
-<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">Upper sensor number</td>
+<td style="text-align: center;">Lower sensor number</td>
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Print Sensor Value</td>
 </tr>
 <tr>
 <td style="text-align: center;">10</td>
@@ -1189,6 +1193,7 @@
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Subsystem error code</td>
 </tr>
 <tr>
 <td style="text-align: center;">11</td>
@@ -1199,6 +1204,7 @@
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Subsystem error message</td>
 </tr>
 <tr>
 <td style="text-align: center;">12</td>
@@ -1209,6 +1215,7 @@
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Subsystem status code</td>
 </tr>
 <tr>
 <td style="text-align: center;">13</td>
@@ -1219,6 +1226,29 @@
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Subsystem status message</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: center;">0x0E</td>
+<td style="text-align: center;">Subsystem number</td>
+<td style="text-align: center;">Sending Subsystem Number</td>
+<td style="text-align: center;">Upper number</td>
+<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Subsystem error code response</td>
+</tr>
+<tr>
+<td style="text-align: center;">15</td>
+<td style="text-align: center;">0x0F</td>
+<td style="text-align: center;">Subsystem number</td>
+<td style="text-align: center;">Sending Subsystem Number</td>
+<td style="text-align: center;">Upper number</td>
+<td style="text-align: center;">Lower number</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Subsystem status code response</td>
 </tr>
 <tr>
 <td style="text-align: center;">67</td>
@@ -1229,9 +1259,11 @@
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
 <td style="text-align: center;">String Space</td>
+<td style="text-align: center;">Button x pushed</td>
 </tr>
 </tbody>
 </table>
+<p>&lt;!-- upper and lower number are due to byte range, &gt;</p>
 
 
 
