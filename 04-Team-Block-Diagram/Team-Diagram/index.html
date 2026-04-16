@@ -659,6 +659,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#generic-pattern-for-message-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generic pattern for message communication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#motor-set-parameter-and-print-value" class="md-nav__link">
     <span class="md-ellipsis">
       Motor set parameter and print value:
@@ -880,6 +889,15 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#generic-pattern-for-message-communication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Generic pattern for message communication
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#motor-set-parameter-and-print-value" class="md-nav__link">
     <span class="md-ellipsis">
       Motor set parameter and print value:
@@ -977,6 +995,27 @@
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../image1.png" data-desc-position="bottom"><img alt="Team Block diagram" src="../image1.png"></a></p>
 <p>A PDF version of the block diagram can be found <a href="../TeamBlockDiagram.pdf">here</a></p>
 <h2 id="2-sequence-diagram-of-team-communication">2. Sequence Diagram of Team Communication</h2>
+<h3 id="generic-pattern-for-message-communication">Generic pattern for message communication</h3>
+<p>Since there's an unspecified user this message will be retransmitted by each subsystem.</p>
+<pre class="mermaid"><code>sequenceDiagram
+    autonumber
+    actor User
+    participant HMI
+
+    User-&gt;&gt;+SamB: Hello demonstrate message compliance
+    SamB-&gt;&gt;+Adrian: Demo Generic request
+
+    Adrian-&gt;&gt;+Andrew: Generic request.
+
+    Andrew-&gt;&gt;+Jacob: Generic request.
+
+    Jacob-&gt;&gt;+SamM: Generic request.
+
+    SamM-&gt;&gt;+Mo: Generic request.
+
+    Mo-&gt;&gt;+Adrian:  Generic request.
+
+    Adrian-&gt;&gt;+SamB: Generic request returned.</code></pre>
 <p>This diagram will demonstrate how our communication will travel through our system for each message type.</p>
 <h3 id="motor-set-parameter-and-print-value">Motor set parameter and print value:</h3>
 <pre class="mermaid"><code>sequenceDiagram
@@ -1113,7 +1152,7 @@
     actor User
     participant HMI
 
-    User-&gt;&gt;+SamB: Hello John, how are you?
+    User-&gt;&gt;+SamB: Hello how is the system running?
     SamB-&gt;&gt;+Adrian: System is running well.
 
     Adrian-&gt;&gt;+Andrew: Generic update request.
