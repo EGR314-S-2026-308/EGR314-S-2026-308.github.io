@@ -12,6 +12,33 @@ A PDF version of the block diagram can be found [here](TeamBlockDiagram.pdf)
 
 ## 2. Sequence Diagram of Team Communication
 
+### Generic pattern for message communication
+
+Since there's an unspecified user this message will be retransmitted by each subsystem.
+
+``` mermaid
+sequenceDiagram
+    autonumber
+    actor User
+    participant HMI
+
+    User->>+SamB: Hello demonstrate message compliance
+    SamB->>+Adrian: Demo Generic request
+
+    Adrian->>+Andrew: Generic request.
+
+    Andrew->>+Jacob: Generic request.
+
+    Jacob->>+SamM: Generic request.
+
+    SamM->>+Mo: Generic request.
+
+    Mo->>+Adrian:  Generic request.
+
+    Adrian->>+SamB: Generic request returned.
+```
+
+
 This diagram will demonstrate how our communication will travel through our system for each message type.
 
 ### Motor set parameter and print value:
@@ -171,7 +198,7 @@ sequenceDiagram
     actor User
     participant HMI
 
-    User->>+SamB: Hello John, how are you?
+    User->>+SamB: Hello how is the system running?
     SamB->>+Adrian: System is running well.
 
     Adrian->>+Andrew: Generic update request.
