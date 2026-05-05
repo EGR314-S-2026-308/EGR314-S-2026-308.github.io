@@ -7,7 +7,7 @@ tags:
 <center>
 <font size="8">Rugged Submersible Surveyor<br>
 <font size="5">Team 308<br>
-**Submission: March 1, 2026**<br>
+**Submission: May 1, 2026**<br>
 Spring - 2025<br>
 <font size="4">Arizona State University<br>
 **EGR 314**<br>
