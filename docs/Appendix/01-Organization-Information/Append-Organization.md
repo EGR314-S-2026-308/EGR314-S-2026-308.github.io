@@ -2,7 +2,7 @@
 title: Appendix - Extra Team Organization Information
 ---
 
-## Roles & Responsibilities
+## **Roles & Responsibilities**
 
 Table 1: Project Roles and Duties
 
@@ -27,9 +27,9 @@ Table 2: Team Member and Roles
 
 At the current time, we are not planning on cycling through roles as during our initial meeting we sat down to see where everyone's strengths lay. If we need to update in the future it will be because a team member is not fulfilling the letter and spirit of their role and will be communicated during team meetings. This deficit in action could be noticed by an increasing lack of communication, reviews, or participation as the role describes. At this point we will reevaluate to see if they are better suited for another role or if we can create a plan to help correct the deficit. As for helping, team members are welcome to help each other achieve sections, but if requested to allow someone to work solo will respect that decision.
 
-## Communication Channels
+## **Communication Channels**
 
-### Team Communication Method
+### **Team Communication Method**
 
 >This is an area where teams often get into trouble. You should specific the channel(s)/method(s) for the team communication along with notes on the expectation in response time.
 
@@ -44,21 +44,17 @@ Table 3: Team Members' Preferred Communication Modes
 | Jacob    | Discord                        | Text/Group chat                 | Instagram                      |
 | Mohammad | Discord                        | Instagram                       | Text/Group                     |
 
-### Communication Procedures
-
-Then, answer the following question as a team:
+### **Communication Procedures**
 
 * Discord was the agreed upon form of communication and as such will be on a dedicated server with specified channels for quick access of information.  <!-- It is expected a response of ... on the agreed timeframe of .... -->
 * Team leader, Adrian P, will be the point of contact for instructor correspondence. As such he is responsible for asking the questions the group needs for successful project completion if an email is required. Through email chains either he can CC group members or bring the response back to the discord server.
 
-### Meeting Schedule and Coordination
-
->Your team should identify common times for meeting every week. If you are not meeting weekly, your team's chances of success this semester are low
+### **Meeting Schedule and Coordination**
 
 * Team will meet Wednesday's 8 o'clock - 9 o' clock on a virtual meeting. Reminders will be communicated through the discord channel with a ping as we're getting closer to the meeting and any changes will also have a resultant ping to ensure individuals get a notification.
 * For records of accountability attendance and assigned tasks will be noted in the minutes. As for any accountability issues first we want to find out where the breakdown in capability or communication occurred, create a plan to fix that problem, and then if further problems persist we can elevate to the teaching team.
 
-### Team Coordination & Accountability
+### **Team Coordination & Accountability**
 
 * Assignments are submitted after a discord poll has the team's sign off or by 11:50 pm before assignments are due (assumes a 11:59 pm due time).
 * To Ensure that each team member has the knowledge and skill required, the team will trust in the individual's ability to advocate for themselves and promote an environment where asking for help is encouraged.
@@ -69,6 +65,6 @@ Then, answer the following question as a team:
 * Help an underperforming team member improve by identifying the areas they're struggling in creating a plan to improve going forward and possibly reassigning work to an area they're more confident in.
 * The consequences for an underperforming team member will be questioning from the team and a verbal "slap" on the wrist and if the problem persist possibly escalating to a pink slip
 
-#### Conflict Recognition & Resolution
+#### **Conflict Recognition & Resolution**
 
 Team members conflicts will be documented in the discord channel and there will be a team effort to resolve these issues via a group vote or wheel-spin.
