@@ -24,10 +24,8 @@ Professor Kevin Nichols<br>
 * To view our project requirements, please visit the [project requirements page.](https://egr314-s-2026-308.github.io/03-Project-Requirements/Project-requirements/)  <br>  
 * To view how our project is designed to work together please visit the [team block diagram page.](https://egr314-s-2026-308.github.io/04-Team-Block-Diagram/Team-Diagram/)<br>  
 * To view our design review, please visit the [design review page.](https://egr314-s-2026-308.github.io/05-Design-Review/Review/)
-* To view our version 2 implementations, please visit the [project V2 page.]()
-* To view our finalized prototype, please visit the [prototype page.]()
-
---todo put links for new pages
+* To view our version 2 implementations, please visit the [project V2 page.](https://egr314-s-2026-308.github.io/06-ProjectV2/06-ProjectV2/)
+* To view our finalized prototype, please visit the [prototype page.](https://egr314-s-2026-308.github.io/07-Prototype/07-Prototype/)
 
 ## **Team Members Datasheet links**
 
