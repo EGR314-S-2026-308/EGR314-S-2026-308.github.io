@@ -8,7 +8,6 @@ The goals are device are as broad as they are complex. That is to say we want to
 
 At this stage of development, we have identified several groups that would be interested in this project. As the project is developed within a university engineering group, the primary target audience is university personnel, including faculty, researchers, and students. A secondary audience includes industry professionals who may encounter the prototype through in-person demonstrations. Additionally, research and exploratory groups may be exposed to the project through industry connections, expanding its reach beyond the academic environment.
 
-
 <details>
 
 <summary><strong>  Idea Generation </strong></summary>
@@ -225,7 +224,6 @@ At this stage of development, we have identified several groups that would be in
 <br>
 106. Device will be waterproof
 
-
  </details>
 
 <details>
@@ -235,45 +233,45 @@ At this stage of development, we have identified several groups that would be in
 This category encompasses all ideas related to  the physical structure, manufacturing, materials, and overall form factor of the device. 
 <br>
 <br>
-Antislip rubberized side
+Anti-slip rubberized side
 <br>
 Will allow for expansion/addition of modules
 <br>
-Internal cable free design 
+Internal cable free design
 <br>
-Flat stable bottom surface 
+Flat stable bottom surface
 <br>
-Assembly will be quick and easy 
+Assembly will be quick and easy
 <br>
-Lightweight modules for easy lifting 
+Lightweight modules for easy lifting
 <br>
-Compact and lightweight form 
+Compact and lightweight form
 <br>
-Device will be easy to rinse and maintain 
+Device will be easy to rinse and maintain
 <br>
-Environmentally neutral materials 
+Environmentally neutral materials
 <br>
-Device will have a buoy for easy retrieval 
+Device will have a buoy for easy retrieval
 <br>
-Device will float if dropped 
+Device will float if dropped
 <br>
-Corrosion resistant 
+Corrosion resistant
 <br>
-Device will have no open ports 
+Device will have no open ports
 <br>
-Low emission design 
+Low emission design
 <br>
-Thermal insulation buoyant in water 
+Thermal insulation buoyant in water
 <br>
-Components sealed in a water proof tube 
+Components sealed in a water proof tube
 <br>
-Mostly 3d printable for easy repair-ability 
+Mostly 3d printable for easy repair-ability
 <br>
-Device will be portable 
+Device will be portable
 <br>
-Device will be modular 
+Device will be modular
 <br>
-Device will be waterproof 
+Device will be waterproof
 <br>
 Looks like a fish for tagging animals
 </details>
@@ -677,24 +675,8 @@ Environmental Sensing: Specifically equipped to test pH, turbidity, salinity, an
 
 Recovery: To prevent loss it includes an auto-inflation compartment to make it float, auto-return logic, and a buoy for easy retrieval if the low battery indicator is triggered.
 
-<!-- Describe, after each presented concept:
 
-How the features highlighted in your concept sketch satisfy the needs of the user of the exploration device.
-How the functionality will will be split across four teammates (See the project description)
-
-Internet-based Two-way wireless communication
-Human machine interface via a screen and buttons
-Sensor and Actuator-based controlled response
-In this passage, please justify how your concept satisfies the following questions:
-
-What kinds of cues will you provide to make the use of your device easier?
-
-How do you plan on designing your "controls?"
-What role will durability and comfort play in the user experience?
-What kind of instruction will be needed to use the device?
--->
-
-## Selected Concepts
+## **Selected Concepts**
 
 We decided to go with the "Rugged Industrial Surveyor" design.
 ![Rugged Industrial Surveyor](Sources/AndrewConcept.svg)
